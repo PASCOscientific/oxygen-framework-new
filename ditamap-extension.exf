@@ -26,6 +26,7 @@ from the contextual menu.
   </author>
   
   <transformationScenarios>
+    <addScenarios href="publishing/pasco-labs.scenarios"/>
     <removeScenario name="DITA Map WebHelp Responsive"/>
     <removeScenario name="DITA Map HTML5"/>
     <removeScenario name="DITA Map XHTML"/>
