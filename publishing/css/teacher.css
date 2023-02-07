@@ -1,0 +1,92 @@
+/* Remove blank graphs */
+[class~="topic/fig"] [class~="topic/image"][outputclass ~= 'blank'] {
+    display: none;
+}
+
+@page:first {
+    @top-left {
+        content: "";
+    }
+    @top-right {
+        content: "Teacher's Guide" !important;
+        text-transform: uppercase;
+        vertical-align: bottom;
+        padding-bottom: 4pt;
+    }
+}
+@page:right {
+    @top-right {
+        content: string(doctitle) " | Teacher's Guide";
+    }
+}
+@page:left {
+    @top-left {
+        content: string(doctitle) " | Teacher's Guide";
+    }
+}
+
+/* Time Required Section */
+*[outputclass ~= 'time-required'] *[class ~= 'dt'] {
+    float: left;
+}
+*[outputclass ~= 'time-required'] *[class ~= 'dt']:after {
+    content: ": ";
+    white-space: pre;
+}
+
+/* Extension Section */
+*[outputclass ~= 'extension'] *[class ~= 'topic/dt'] {
+    font: 500 italic 10pt 'Roboto', sans-serif;
+}
+*[outputclass ~= 'extension'] *[class ~= 'topic/dd'] {
+    font-size: 10pt;
+    margin-left: 0pt;
+}
+
+/* Support Section */
+*[outputclass ~= 'support'] {
+    break-inside: avoid;
+}
+*[outputclass ~= 'support'] [class~="topic/table"] {
+    width: auto;
+    margin-left: 0;
+}
+*[outputclass ~= 'support'] *[class ~= 'topic/entry'] {
+    border: none;
+    padding: 0.3em;
+    text-align: left;
+    font: 300 10pt serif;
+}
+.table td:not([valign]) {
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

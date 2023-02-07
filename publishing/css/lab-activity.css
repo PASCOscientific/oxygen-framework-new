@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/****************************************************************/
+/*                      REMOVED CONTENT                         */
+/****************************************************************/
+
+/* Remove Cover Page and TOC */
+/**[class ~= 'map/map'] > *[class ~= 'toc/toc'] {
+    display:none !important;
+}
+*[class ~= 'map/map'] > *[class ~= 'front-page/front-page']{
+    display:none !important;
+}
+*[class~='topic/topic'][is-chapter] {
+    -oxy-page-group : auto;
+}*/
+
+/* Remove 'Chapter #' prefix from topic titles */
+*[class ~= "topic/topic"][is-chapter]:not([is-part]) > *[class ~= "topic/title"]:before {
+    display: none !important;
+}
+
+/* Remove 'on page ##' suffix from links */
+*[class ~= "topic/xref"][href]:after,
+*[class ~= "topic/link"][href]:after {
+    content: none !important;
+}
+
+/* Remove cover PDF bookmark */
+*[class ~= "front-page/front-page-title"] > *[class ~= "topic/title"]:not([class ~= "bookmap/booktitle"]),
+*[class ~= "front-page/front-page-title"] > *[class ~= "bookmap/booktitle"] > *[class ~= "bookmap/mainbooktitle"] {
+    bookmark-level: 0;  
+}
+
+/****************************************************************/
+/*                      DOCUMENT PROPERTIES                     */
+/****************************************************************/
+
+/* Set the variable 'doctitle' to map title */
+div[class ~= "front-page/front-page-title"] {
+    string-set: doctitle content();
+}
+
+@page {
+    size: US-letter;
+    padding: 0.5em 0in;
+    font: 300 10pt 'Roboto', sans-serif;
+    border-top: dotted 2.2px;
+    border-bottom: dotted 2.2px;
+}
+
+@page:first {
+    margin: 0.75in 0.75in 0.75in 1.25in;
+    @top-left {
+        content: "NAME                                                                                           PERIOD                            DATE";
+        white-space: pre;
+        vertical-align: bottom;
+        padding-bottom: 4pt;
+    }
+}
+@page:right {
+    margin: 0.75in 0.75in 0.75in 1.25in;
+    @top-right {
+        content: string(doctitle) " | Student Handout";
+        text-transform: uppercase;
+        vertical-align: bottom;
+        padding-bottom: 4pt;
+        white-space: pre;
+    }
+    @bottom-right {
+        content: "PASCO        " counter(page);
+        vertical-align: top;
+        padding-top: 4pt;
+        white-space: pre;
+    }
+}
+@page:left {
+    margin: 0.75in 1.25in 0.75in 0.75in;
+    @top-left {
+        content: string(doctitle) " | Student Handout";
+        text-transform: uppercase;
+        vertical-align: bottom;
+        padding-bottom: 4pt;
+        white-space: pre;
+    }
+    @bottom-left {
+        content: counter(page) "        PASCO";
+        vertical-align: top;
+        padding-top: 4pt;
+        white-space: pre;
+    }
+}
+
+/* Page Break Rules */
+[oid="objectives"],
+[oid="materials"],
+[oid="safety"] {
+    page-break-inside: avoid;
+}
+
+/****************************************************************/
+/*                      TEXT STYLES                             */
+/****************************************************************/
+
+/* Base fonts */
+:root {
+    font-size: 10pt;
+}
+
+sup[class~="hi-d/sup"],
+sub[class~="hi-d/sub"] {
+    font-size: 0.6em;
+}
+
+/* Fonts for headers */
+.topictitle1 {
+    font: 300 20pt 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.topictitle2 {
+    font: 500 13pt 'Roboto', sans-serif;
+}
+.topictitle3 {
+    font: 500 italic 10pt 'Roboto', sans-serif;
+}
+
+/* Fonts for table text */
+*[class~="topic/entry"], [class~="topic/stentry"] {
+	font-size: 9pt;
+}
+
+/* Fonts for answers */
+*[class ~= 'learning2-d/lcOpenAnswer2'],
+*[class ~= 'learning2-d/lcOpenAnswer2'] * {
+    font-size: 9pt;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+

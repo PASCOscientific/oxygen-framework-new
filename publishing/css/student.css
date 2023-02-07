@@ -1,0 +1,23 @@
+/* Add answer space below open questions in a numbered list */
+[class~="learning2-d/lcOpenQuestion2"] [class~="learning2-d/lcQuestion2"] {
+    padding-bottom: 1in;
+}
+
+*[outputclass~="no-space"] {
+    padding-bottom: 0in !important;
+}
+*[outputclass~="one-line"] {
+    padding-bottom: 0.33in !important;
+}
+*[outputclass~="two-lines"] {
+    padding-bottom: 0.67in !important;
+}
+*[outputclass~="three-lines"] {
+    padding-bottom: 1.0in !important;
+}
+*[outputclass~="four-lines"] {
+    padding-bottom: 1.33in !important;
+}
+*[outputclass~="drawing"] {
+    padding-bottom: 2.00in !important;
+}
