@@ -25,5 +25,10 @@ from the contextual menu.
     
   </author>
   
+  <documentTemplates inherit="all">
+    
+    <addEntry path="${frameworkDir}/templates" position="before"/>
+    
+  </documentTemplates>
   
 </script>
