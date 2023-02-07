@@ -25,5 +25,21 @@ from the contextual menu.
 
   </author>
   
+  <transformationScenarios>
+    <removeScenario name="DITA Map WebHelp Responsive"/>
+    <removeScenario name="DITA Map HTML5"/>
+    <removeScenario name="DITA Map XHTML"/>
+    <removeScenario name="DITA Map Markdown"/>
+    <removeScenario name="DITA Map EPUB"/>
+    <removeScenario name="DITA Map CHM"/>
+    <removeScenario name="DITA Map Eclipse Help"/>
+    <removeScenario name="DITA Map Kindle"/>
+    <removeScenario name="DITA Map InDesign"/>
+    <removeScenario name="DITA Map Metrics Report"/>
+    <removeScenario name="DITA Map PDF - based on XSL-FO"/>
+    <removeScenario name="DITA Map WebHelp Responsive"/>
+    <removeScenario name="DITA Map PDF - based on HTML5 &amp; CSS"/>
+    <removeScenario name="DITA Map MS Office Word"/>
+  </transformationScenarios>
   
 </script>
