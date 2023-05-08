@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xt:extensions xmlns:xt="http://www.oxygenxml.com/ns/extension"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.oxygenxml.com/ns/extension http://www.oxygenxml.com/ns/extension/extensions.xsd">
+    <xt:extension id="com.pasco.main-framework">
+        <xt:location href="https://github.com/PASCOscientific/oxygen-framework-new/archive/master.zip"/>
+        <xt:version>0.1.0</xt:version>
+        <xt:oxy_version>23.0+</xt:oxy_version>
+        <xt:type>framework</xt:type>
+        <xt:author>PASCO scientific</xt:author>
+        <xt:name>Authoring Framework</xt:name>
+        <xt:description xmlns="http://www.w3.org/1999/xhtml"/>
+        <xt:license>
+            <![CDATA[
+Copyright 2023 PASCO scientific. For use only by PASCO scientific employees, contractors, or Global Science Education Partners.
+]]></xt:license>
+    </xt:extension>
+</xt:extensions>
