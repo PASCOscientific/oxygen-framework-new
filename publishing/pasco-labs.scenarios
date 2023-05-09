@@ -304,7 +304,7 @@
 					<field name="publishingTemplateDataPO">
 						<publishingTemplate>
 							<field name="templateRoot">
-								<String>C:/Users/jhanna/Documents/_Curriculum_Projects/oxygen-framework-new/publishing</String>
+								<String>${frameworkDir(PASCO DITA Extension)}/publishing/</String>
 							</field>
 							<field name="descriptorRelativePath">
 								<String>student-pdf.opt</String>
@@ -732,7 +732,7 @@
 					<field name="publishingTemplateDataPO">
 						<publishingTemplate>
 							<field name="templateRoot">
-								<String>C:/Users/jhanna/Documents/_Curriculum_Projects/oxygen-framework-new/publishing</String>
+								<String>${frameworkDir(PASCO DITA Extension)}/publishing/</String>
 							</field>
 							<field name="descriptorRelativePath">
 								<String>teacher-pdf.opt</String>
