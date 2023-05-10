@@ -18,10 +18,10 @@
 						<String>${cfd}</String>
 					</field>
 					<field name="outputDir">
-						<String>${cfd}/out/docx</String>
+						<String>${cfd}/out/student-DOCX</String>
 					</field>
 					<field name="tempDir">
-						<String>${cfd}/temp/docx</String>
+						<String>${cfd}/temp/student-DOCX</String>
 					</field>
 					<field name="transtype">
 						<String>docx</String>
@@ -262,10 +262,10 @@
 						<String>${cfd}</String>
 					</field>
 					<field name="outputDir">
-						<String>${cfd}/out/pdf-css-html5</String>
+						<String>${cfd}/out/student-PDF</String>
 					</field>
 					<field name="tempDir">
-						<String>${cfd}/temp/pdf-css-html5</String>
+						<String>${cfd}/temp/student-PDF</String>
 					</field>
 					<field name="transtype">
 						<String>pdf-css-html5</String>
@@ -304,13 +304,13 @@
 					<field name="publishingTemplateDataPO">
 						<publishingTemplate>
 							<field name="templateRoot">
-								<String>${frameworkDir(PASCO DITA Extension)}/publishing/</String>
+								<String>C:/Users/bpuglies/Documents/OxygenXMLAuthor/oxygen-framework-new/publishing/</String>
 							</field>
 							<field name="descriptorRelativePath">
 								<String>student-pdf.opt</String>
 							</field>
 							<field name="isCustomTemplate">
-								<Boolean>false</Boolean>
+								<Boolean>true</Boolean>
 							</field>
 						</publishingTemplate>
 					</field>
@@ -446,10 +446,10 @@
 						<String>${cfd}</String>
 					</field>
 					<field name="outputDir">
-						<String>${cfd}/out/docx</String>
+						<String>${cfd}/out/teacher-DOCX</String>
 					</field>
 					<field name="tempDir">
-						<String>${cfd}/temp/docx</String>
+						<String>${cfd}/temp/teacher-DOCX</String>
 					</field>
 					<field name="transtype">
 						<String>docx</String>
@@ -690,10 +690,10 @@
 						<String>${cfd}</String>
 					</field>
 					<field name="outputDir">
-						<String>${cfd}/out/pdf-css-html5</String>
+						<String>${cfd}/out/teacher-PDF</String>
 					</field>
 					<field name="tempDir">
-						<String>${cfd}/temp/pdf-css-html5</String>
+						<String>${cfd}/temp/teacher-PDF</String>
 					</field>
 					<field name="transtype">
 						<String>pdf-css-html5</String>
@@ -732,13 +732,13 @@
 					<field name="publishingTemplateDataPO">
 						<publishingTemplate>
 							<field name="templateRoot">
-								<String>${frameworkDir(PASCO DITA Extension)}/publishing/</String>
+								<String>C:/Users/bpuglies/Documents/OxygenXMLAuthor/oxygen-framework-new/publishing/</String>
 							</field>
 							<field name="descriptorRelativePath">
 								<String>teacher-pdf.opt</String>
 							</field>
 							<field name="isCustomTemplate">
-								<Boolean>false</Boolean>
+								<Boolean>true</Boolean>
 							</field>
 						</publishingTemplate>
 					</field>
