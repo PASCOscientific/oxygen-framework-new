@@ -104,7 +104,7 @@ div[class ~= "front-page/front-page-title"] {
 
 /* Base fonts */
 :root {
-    font-size: 10pt;
+    font-size: 11pt;
 }
 
 sup[class~="hi-d/sup"],
@@ -114,21 +114,24 @@ sub[class~="hi-d/sub"] {
 
 /* Fonts for headers */
 .topictitle1 {
-    font: 300 20pt 'Roboto', sans-serif;
-    text-transform: uppercase;
+    font: 500 20pt 'Roboto', sans-serif;
+    /*  text-transform: uppercase;   */
 }
 .topictitle2 {
     font: 500 13pt 'Roboto', sans-serif;
 }
 .topictitle3 {
-    font: 500 italic 10pt 'Roboto', sans-serif;
+    font: 500 italic 11pt 'Roboto', sans-serif;
 }
 
 /* Fonts for table text */
 *[class~="topic/entry"], [class~="topic/stentry"] {
 	font-size: 9pt;
 }
-
+*[class~="table--title"] {
+	font-size: 10pt;
+    font-style: italic;
+}
 /* Fonts for answers */
 *[class ~= 'learning2-d/lcOpenAnswer2'],
 *[class ~= 'learning2-d/lcOpenAnswer2'] * {
@@ -136,6 +139,270 @@ sub[class~="hi-d/sub"] {
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
 }
+
+/* Special font formats */
+p.small {
+    font: 300 8pt 'Roboto', sans-serif;
+    margin-top: -10px;
+}
+/****************************************************************/
+/*                      LISTS                                   */
+/****************************************************************/
+
+  .ul, .ol {
+    margin-left: 0.22in;
+}
+.li {
+    page-break-inside: avoid;
+    margin-bottom: 8px;
+}
+/*  [oid=materials] > div > .ul {
+    column-count: 2; */
+} 
+.ol .ol,
+.ol .ul,
+.ul .ol,
+.ul .ul {
+    margin-top: 6pt;
+}
+
+ul, ol {
+  padding-left: 0;
+}
+
+/* Left-align numbers in ordered lists */
+ol {
+  counter-reset: item;
+}
+ol > li {
+  display: block;
+}
+ol > li:before {
+  content: counter(item) ". ";
+  counter-increment: item;
+  position: absolute;
+  margin-left: -1.5em;
+}
+ol ol > li:before {
+  content: counter(item, lower-alpha) ". ";
+}
+dl {
+    font-size: 10pt;
+}
+
+/****************************************************************/
+/*                      TABLES                                  */
+/****************************************************************/
+
+*[class~="topic/table"] {
+    border-collapse: collapse;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: auto;
+    page-break-inside: avoid;
+    hyphens: none;
+}
+*[class~="topic/entry"], [class~="topic/stentry"] {
+    border: 1px solid black;
+    height: 0.33in;    
+}
+.align-left {
+    text-align: left;
+}
+.align-center {
+    text-align: center;
+}
+.align-right {
+    text-align: right;
+}
+
+/* Unset vertical-align:top for this rule */
+.simpletable td:not([valign]), .table td:not([valign]) {
+    vertical-align: middle;
+}
+*[class~="topic/entry"] *[class~="topic/p"],
+*[class~="topic/stentry"] *[class~="topic/p"] {
+    margin-top:auto;
+    margin-bottom:auto;
+    font-size: 10pt;
+}
+
+th[class~="topic/entry"], th[class~="topic/stentry"] {
+    background-color: #D9D9D9;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Reset the table numbering for each topic */
+.table--title-label {
+    display: none;
+}
+.nested0 {
+  counter-reset: tablecounter;
+}
+.table--title:before {
+  content: "Table " counter(tablecounter) ". ";
+  counter-increment: tablecounter;
+}
+
+/* Fill-in-the-blank type tables */
+.single-value {
+    border: 1px;
+}
+.single-value td:first-child:after {
+    content: " =";
+    white-space: pre;
+}
+.single-value td:first-child {
+    text-align: right;
+    border: none;
+    vertical-align: bottom;
+}
+.single-value td:last-child {
+    text-align: center;
+    border-width: 0 0 1px 0;
+    vertical-align: bottom;
+}
+.single-value caption {
+    margin: 0;
+}
+
+/* Removes white space above table when there is no table title*/
+.no-title {
+    margin-top: -0.16in;
+}
+
+.short {
+    height: 0.1in;
+}
+
+/* Gray out a table cell */
+*[class~="gray-out"],
+*[class~="topic/stentry"] {
+    background-color: #d3d3d3;
+}
+
+/****************************************************************/
+/*                      IMAGES AND FIGURES                      */
+/****************************************************************/
+
+*[class ~= "topic/image"] {
+    height: 1em;
+    margin: 0;
+    vertical-align: text-bottom;
+}
+
+figcaption {
+    font-size: 10pt;
+}
+
+/* Center-align figures */
+/**[class~="topic/fig"] {
+    page-break-inside: avoid;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+/* Left-align figures with graphs */
+.graph-figure {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+/* Center images in figures */
+*[class ~= "topic/fig"] > *[class ~= "topic/image"]{
+  display: block;
+  margin: 0.25in auto;
+  height: initial;
+}
+[class~="topic/image"][placement="break"] {
+    height: initial;
+}
+
+/*  [class ~= "topic/fig"][outputclass ~= "float-right"],
+.float-right {
+    float: right;
+    margin: 0.25in;
+    margin-right: 0in;
+} */
+
+*[class ~= "equation-d/equation-block"] math {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+*[class ~="equation-d/equation-block"],
+*[class ~="equation-d/equation-inline"]{
+	font-size: 11pt;
+}
+*[class ~="equation-d/equation-block"] {
+    overflow: auto;
+}
+
+/****************************************************************/
+/*                      QUESTIONS AND ANSWERS                   */
+/****************************************************************/
+
+*[class ~= 'learning2-d/lcOpenQuestion2'],
+*[class ~= 'learning2-d/lcQuestion2'] {
+    margin-top: 0pt;
+}
+
+*[class ~= 'learning2-d/lcOpenAnswer2'] {
+    margin-top: 3pt;
+}
+
+*[class ~= 'learning2-d/lcOpenAnswer2'],
+*[class ~= 'learning2-d/lcOpenAnswer2'] * {
+    font-size: 10pt;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+*[class ~= 'learning2-d/lcQuestion2'] {
+    font-size: 11pt;
+}
+
+*[class ~= 'learning2-d/lcOpenAnswer2'] math {
+    position: relative;
+    left: -250px;
+}
+
+/* Left-align answers that use MathType within an equation block*/
+.math-ans{
+    text-align: left;
+}
+
+/****************************************************************/
+/*                      NOTES                                   */
+/****************************************************************/
+
+*[class ~="topic/note"] {
+    font-style: italic;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    font-size: 10pt;
+}
+span.note__title {
+    text-transform: uppercase;
+}
+
+/* Remove default note icon */
+div.note {
+    background-image: none;
+    padding: 0.5em;
+    overflow: auto;
+}
+/* Text for instructor notes */
+div.lcInstructornote2 > span.note__title {
+    display: none;
+}
+div.lcInstructornote2::before {
+    content: "INSTRUCTOR NOTE: ";
+    font-weight: bold;
+}
+
 
 
 
