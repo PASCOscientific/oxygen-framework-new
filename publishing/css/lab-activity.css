@@ -32,6 +32,10 @@
     bookmark-level: 0;  
 }
 
+/* Remove extra breaks around images set to break */
+
+br:nth-of-type(2n) { display: unset; }
+
 /****************************************************************/
 /*                      DOCUMENT PROPERTIES                     */
 /****************************************************************/
@@ -367,11 +371,6 @@ figcaption {
 *[class ~= 'learning2-d/lcOpenAnswer2'] math {
     position: relative;
     left: -250px;
-}
-
-/* Left-align answers that use MathType within an equation block*/
-.math-ans{
-    text-align: left;
 }
 
 /****************************************************************/
