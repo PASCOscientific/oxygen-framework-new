@@ -32,6 +32,10 @@
     bookmark-level: 0;  
 }
 
+/* Remove extra breaks around images set to break */
+
+br:nth-of-type(2n) { display: unset; }
+
 /****************************************************************/
 /*                      DOCUMENT PROPERTIES                     */
 /****************************************************************/
@@ -62,6 +66,7 @@ div[class ~= "front-page/front-page-title"] {
 /****************************************************************/
 
 /* Base fonts */
+
 :root, .p {
     font-size: 11pt;
 }
@@ -317,7 +322,6 @@ span.note__title {
 }
 
 /* Remove default note icon */
-
 div.note {
     background-image: none;
     padding: 0.5em;
