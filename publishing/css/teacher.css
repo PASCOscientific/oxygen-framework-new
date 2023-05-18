@@ -4,43 +4,54 @@
 }
 
 @page:first {
+    margin: 0.75in 0.75in 0.75in 1.25in;
     @top-left {
-        content: "";
-    }
-    @top-right {
-        content: "Teacher's Guide" !important;
-        text-transform: uppercase;
+        content: "TEACHER'S GUIDE";
+        white-space: pre;
         vertical-align: bottom;
+        text-align: right;
         padding-bottom: 4pt;
     }
 }
 @page:right {
+    margin: 0.75in 0.75in 0.75in 1.25in;
     @top-right {
-        content: string(doctitle) " | Teacher's Guide";
+        content: string(doctitle) " | TEACHER'S GUIDE";
+        vertical-align: bottom;
+        padding-bottom: 4pt;
+        white-space: pre;
+    }
+    @bottom-right {
+        content: "PASCO        " counter(page);
+        vertical-align: top;
+        padding-top: 4pt;
+        white-space: pre;
     }
 }
 @page:left {
+    margin: 0.75in 1.25in 0.75in 0.75in;
     @top-left {
-        content: string(doctitle) " | Teacher's Guide";
+        content: string(doctitle) " | TEACHER'S GUIDE";
+        vertical-align: bottom;
+        padding-bottom: 4pt;
+        white-space: pre;
+    }
+    @bottom-left {
+        content: counter(page) "        PASCO";
+        vertical-align: top;
+        padding-top: 4pt;
+        white-space: pre;
     }
 }
 
-/* Time Required Section */
-*[outputclass ~= 'time-required'] *[class ~= 'dt'] {
-    float: left;
-}
-*[outputclass ~= 'time-required'] *[class ~= 'dt']:after {
-    content: ": ";
-    white-space: pre;
+/* Extension Section */
+
+*[outputclass ~= 'extension'] *[class ~= 'topic/p'] {
+    margin-bottom: 3px;
 }
 
-/* Extension Section */
-*[outputclass ~= 'extension'] *[class ~= 'topic/dt'] {
-    font: 500 italic 10pt 'Roboto', sans-serif;
-}
-*[outputclass ~= 'extension'] *[class ~= 'topic/dd'] {
-    font-size: 10pt;
-    margin-left: 0pt;
+.table td:not([valign]) {
+    vertical-align: top;
 }
 
 /* Support Section */
@@ -49,14 +60,19 @@
 }
 *[outputclass ~= 'support'] [class~="topic/table"] {
     width: auto;
-    margin-left: 0;
+    margin: 0;
 }
 *[outputclass ~= 'support'] *[class ~= 'topic/entry'] {
     border: none;
-    padding: 0.3em;
     text-align: left;
-    font: 300 10pt serif;
+    font: 300 11pt serif;
+    height: 1em;
 }
+
+*[outputclass ~= 'support'] *[class ~= 'topic/p'] {
+    margin-bottom: 5px;
+}
+
 .table td:not([valign]) {
     vertical-align: top;
 }

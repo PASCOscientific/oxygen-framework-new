@@ -49,48 +49,6 @@ div[class ~= "front-page/front-page-title"] {
     border-bottom: dotted 2.2px;
 }
 
-@page:first {
-    margin: 0.75in 0.75in 0.75in 1.25in;
-    @top-left {
-        content: "NAME                                                                                           PERIOD                            DATE";
-        white-space: pre;
-        vertical-align: bottom;
-        padding-bottom: 4pt;
-    }
-}
-@page:right {
-    margin: 0.75in 0.75in 0.75in 1.25in;
-    @top-right {
-        content: string(doctitle) " | Student Handout";
-        text-transform: uppercase;
-        vertical-align: bottom;
-        padding-bottom: 4pt;
-        white-space: pre;
-    }
-    @bottom-right {
-        content: "PASCO        " counter(page);
-        vertical-align: top;
-        padding-top: 4pt;
-        white-space: pre;
-    }
-}
-@page:left {
-    margin: 0.75in 1.25in 0.75in 0.75in;
-    @top-left {
-        content: string(doctitle) " | Student Handout";
-        text-transform: uppercase;
-        vertical-align: bottom;
-        padding-bottom: 4pt;
-        white-space: pre;
-    }
-    @bottom-left {
-        content: counter(page) "        PASCO";
-        vertical-align: top;
-        padding-top: 4pt;
-        white-space: pre;
-    }
-}
-
 /* Page Break Rules */
 [oid="objectives"],
 [oid="materials"],
@@ -98,13 +56,14 @@ div[class ~= "front-page/front-page-title"] {
     page-break-inside: avoid;
 }
 
+
 /****************************************************************/
 /*                      TEXT STYLES                             */
 /****************************************************************/
 
 /* Base fonts */
-:root {
-    font-size: 10pt;
+:root, .p {
+    font-size: 11pt;
 }
 
 sup[class~="hi-d/sup"],
@@ -113,22 +72,33 @@ sub[class~="hi-d/sub"] {
 }
 
 /* Fonts for headers */
+/* PDF Chemistry font support is incomplete; when improved CSS can be reduced to: font: 500 20pt 'Roboto', sans-serif; */
 .topictitle1 {
-    font: 300 20pt 'Roboto', sans-serif;
-    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    font-weight: 500;
 }
 .topictitle2 {
-    font: 500 13pt 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    font-weight: 500;
 }
 .topictitle3 {
-    font: 500 italic 10pt 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 11pt;
+    font-weight: 500;
 }
 
 /* Fonts for table text */
 *[class~="topic/entry"], [class~="topic/stentry"] {
-	font-size: 9pt;
+	font-size: 10pt;
 }
-
+*[class~="table--title"] {
+	font-size: 10pt;
+    font-style: italic;
+    font-weight: normal;
+}
 /* Fonts for answers */
 *[class ~= 'learning2-d/lcOpenAnswer2'],
 *[class ~= 'learning2-d/lcOpenAnswer2'] * {
@@ -137,13 +107,231 @@ sub[class~="hi-d/sub"] {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Hyperlinks */
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Small font suitable for use in Materials list or mini-notes */
+p.small {
+    font-size: 8pt;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0px;
+}
+
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/****************************************************************/
+/*                      LISTS                                   */
+/****************************************************************/
+
+.ul, .ol {
+    margin-left: -0.22in;
+    margin-top: 6pt;
+}
+.ol, .li {
+    font-size: 11pt;
+    margin-bottom: 8px;
+}
+
+.ul, .li {
+    font-size: 11pt;
+    margin-bottom: 6px;
+}
+
+/****************************************************************/
+/*                      TABLES                                  */
+/****************************************************************/
+*[class~="topic/table"] {
+    page-break-inside: avoid;
+    hyphens: none;
+}
+
+*[class~="topic/entry"], [class~="topic/stentry"] {
+    border: 1px solid black;
+    height: 0.33in;    
+}
+
+/* Unset vertical-align:top for this rule */
+/*  
+.simpletable td:not([valign]), .table td:not([valign]) {
+    vertical-align: middle;
+}*/
+*[class~="topic/entry"] *[class~="topic/p"],
+*[class~="topic/stentry"] *[class~="topic/p"] {
+    margin-top:auto;
+    margin-bottom:auto;
+    font-size: 10pt;
+}
+
+th[class~="topic/entry"], th[class~="topic/stentry"] {
+    background-color: #D9D9D9;
+    font-family: 'Roboto', sans-serif;
+    height: 0.25in;
+}
+
+/* Reset the table numbering for each topic */
+ 
+.table--title-label {
+    display: none;
+}  
+.nested0 {
+  counter-reset: tablecounter;
+}
+.table--title:before {
+  content: "Table " counter(tablecounter) ". ";
+  counter-increment: tablecounter;
+}
+
+/* Fill-in-the-blank type tables */  
+.single-value {
+    border: 1px;
+}
+.single-value td:first-child:after {
+    content: " =";
+    white-space: pre;
+}
+.single-value td:first-child {
+    text-align: right;
+    border: none;
+    vertical-align: bottom;
+}
+.single-value td:last-child {
+    text-align: center;
+    border-width: 0 0 1px 0;
+    vertical-align: bottom;
+}
+.single-value caption {
+    margin: 0;
+}
+
+/* Removes white space above table when there is no table title*/  
+.no-title {
+    margin-top: -0.16in;
+}
+
+.short {
+    height: 0.1in;
+}
+
+.very-short {
+    height: 0.075in;
+}
+
+/* Gray out a table cell */
+*[class~="gray-out"],
+*[class~="topic/stentry"] {
+    background-color: #d3d3d3;
+}
+
+/****************************************************************/
+/*                      IMAGES AND FIGURES                      */
+/****************************************************************/
+  
+*[class ~= "topic/image"] {
+    height: 1em;
+    margin: 0;
+    vertical-align: text-bottom;
+}
+ 
+figcaption {
+    font-size: 10pt;
+    text-align: center;
+    margin-top: 6px;
+}
+*[class~="topic/fig"] {
+    page-break-inside: avoid;
+}
+
+[class~="topic/image"][placement="break"] {
+    height: initial;
+}
+/* MathType equations */
+*[class ~= "equation-d/equation-block"] math {
+    margin-top: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+}  
+*[class ~="equation-d/equation-block"],
+*[class ~="equation-d/equation-inline"]{
+	font-size: 11pt;
+	text-align: center;
+}
 
 
+/* Remove extra break around images */
+*[class ~= "topic/fig"] > br {
+  display: none;
+} 
 
+/****************************************************************/
+/*                      QUESTIONS AND ANSWERS                   */
+/****************************************************************/
 
+*[class ~= 'learning2-d/lcOpenQuestion2'],
+*[class ~= 'learning2-d/lcQuestion2'] {
+    margin-top: 0pt;
+}
 
+*[class ~= 'learning2-d/lcQuestion2'] {
+    font-size: 11pt;
+}
 
+*[class ~= 'learning2-d/lcOpenAnswer2'] {
+    margin-top: 3pt;
+}
 
+*[class ~= 'learning2-d/lcOpenAnswer2'],
+*[class ~= 'learning2-d/lcOpenAnswer2'] * {
+    font-size: 10pt;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Left-align MathType in answers */
+
+*[class ~="equation-d/equation-block"][outputclass ~= "left"],
+*[class ~="equation-d/equation-inline"][outputclass ~= "left"]{
+    text-align: left;
+}
+
+/****************************************************************/
+/*                      NOTES                                   */
+/****************************************************************/
+
+*[class ~="topic/note"] {
+    font-style: italic;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    font-size: 10pt;
+    margin-top: 2px;
+}
+span.note__title {
+    text-transform: uppercase;
+}
+
+/* Remove default note icon */
+
+div.note {
+    background-image: none;
+    padding: 0.5em;
+    overflow: auto;
+}
+/* Text for instructor notes */
+ 
+div.lcInstructornote2 > span.note__title {
+    display: none;
+}
+div.lcInstructornote2::before {
+    content: "INSTRUCTOR NOTE: ";
+    font-weight: bold;
+}
 
 
 

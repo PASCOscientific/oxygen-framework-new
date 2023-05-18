@@ -1,4 +1,5 @@
 /* Add answer space below open questions in a numbered list */
+
 [class~="learning2-d/lcOpenQuestion2"] [class~="learning2-d/lcQuestion2"] {
     padding-bottom: 1in;
 }
@@ -25,10 +26,9 @@
 @page:first {
     margin: 0.75in 0.75in 0.75in 1.25in;
     @top-left {
-        content: "STUDENT HANDOUT";
+        content: "NAME                                                                                           PERIOD                            DATE";
         white-space: pre;
         vertical-align: bottom;
-        text-align: right;
         padding-bottom: 4pt;
     }
 }
@@ -61,4 +61,57 @@
         padding-top: 4pt;
         white-space: pre;
     }
+}
+
+
+
+
+:root, .p, .dl {
+  font-family: sans-serif;
+}
+
+.topictitle1,
+.topictitle2,
+.topictitle3,
+strong {
+  color: #00B0F0;
+}
+
+.topictitle1 {
+  font-size: 24pt;
+  font-weight: 300;
+}
+.topictitle2 {
+  font-size: 14pt;
+}
+.topictitle3,
+*[class~='topic/p'],
+.li {
+  font-size: 12pt;
+}
+
+*[class~="topic/entry"], [class~="topic/stentry"],
+[oid="materials"] li,
+*[class~="topic/entry"] *[class~="topic/p"],
+*[class~="topic/stentry"] *[class~="topic/p"],
+*[class ~= 'learning2-d/lcOpenAnswer2'] {
+	font-size: 10pt;
+}
+
+.nested0 > .body [class~="topic/p"] {
+	font-size: 14pt;
+}
+
+[oid="materials"] .body,
+[oid="safety"] .body {
+  border: 3px solid #00B0F0;
+  padding: 1em;
+}
+[oid="materials"] .body > *,
+[oid="safety"] .body > * {
+  margin-bottom: 0;
+}
+
+.figcap, .tablecap {
+	font: italic 10pt sans-serif;
 }
