@@ -779,31 +779,7 @@
 						<String></String>
 					</field>
 					<field name="ditaParams">
-						<list>
-							<ditaParameter>
-								<field name="name">
-									<String>args.css</String>
-								</field>
-								<field name="description">
-									<null/>
-								</field>
-								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/css/lab-activity.css;${frameworkDir(PASCO DITA Map Extension)}/publishing/css/student.css</String>
-								</field>
-								<field name="defaultValue">
-									<null/>
-								</field>
-								<field name="type">
-									<Integer>2</Integer>
-								</field>
-								<field name="possibleValues">
-									<null/>
-								</field>
-								<field name="possibleValuesDescriptions">
-									<null/>
-								</field>
-							</ditaParameter>
-						</list>
+						<list/>
 					</field>
 					<field name="jvmArgs">
 						<String></String>
@@ -1231,31 +1207,7 @@
 						<String></String>
 					</field>
 					<field name="ditaParams">
-						<list>
-							<ditaParameter>
-								<field name="name">
-									<String>args.css</String>
-								</field>
-								<field name="description">
-									<null/>
-								</field>
-								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/css/lab-activity.css;${frameworkDir(PASCO DITA Map Extension)}/publishing/css/teacher.css</String>
-								</field>
-								<field name="defaultValue">
-									<null/>
-								</field>
-								<field name="type">
-									<Integer>2</Integer>
-								</field>
-								<field name="possibleValues">
-									<null/>
-								</field>
-								<field name="possibleValuesDescriptions">
-									<null/>
-								</field>
-							</ditaParameter>
-						</list>
+						<list/>
 					</field>
 					<field name="jvmArgs">
 						<String></String>
