@@ -3,17 +3,17 @@
     display: none;
 }
 
-@page:first {
+@page chapter:first:right {
     margin: 0.75in 0.75in 0.75in 1.25in;
-    @top-left {
+    @top-right {
         content: "TEACHER'S GUIDE";
         white-space: pre;
         vertical-align: bottom;
-        text-align: right;
         padding-bottom: 4pt;
     }
 }
-@page:right {
+
+@page chapter:right {
     margin: 0.75in 0.75in 0.75in 1.25in;
     @top-right {
         content: string(doctitle) " | TEACHER'S GUIDE";
@@ -28,7 +28,8 @@
         white-space: pre;
     }
 }
-@page:left {
+
+@page chapter:left {
     margin: 0.75in 1.25in 0.75in 0.75in;
     @top-left {
         content: string(doctitle) " | TEACHER'S GUIDE";
@@ -44,10 +45,16 @@
     }
 }
 
-/* Extension Section */
+/* Extension Section */    
+*[outputclass ~= 'extension'] *[class ~= 'topic/dt'] {
+    font-weight: 500;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 0pt;
+}
 
-*[outputclass ~= 'extension'] *[class ~= 'topic/p'] {
-    margin-bottom: 3px;
+*[outputclass ~= 'extension'] *[class ~= 'topic/dd'] {
+    margin-left: 0pt;
 }
 
 .table td:not([valign]) {

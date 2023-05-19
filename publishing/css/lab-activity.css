@@ -67,7 +67,7 @@ div[class ~= "front-page/front-page-title"] {
 
 /* Base fonts */
 
-:root, .p {
+:root, .p, .dl {
     font-size: 11pt;
 }
 
@@ -274,6 +274,14 @@ figcaption {
 *[class ~= "topic/fig"] > br {
   display: none;
 } 
+
+
+/* Center-align figures for images in projects built on older templates */
+*[class~="topic/fig"] {
+    page-break-inside: avoid;
+    text-align: center;
+}
+
 
 /****************************************************************/
 /*                      QUESTIONS AND ANSWERS                   */

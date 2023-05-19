@@ -22,17 +22,17 @@
     padding-bottom: 2.00in !important;
 }
 
-@page:first {
+@page chapter:first:right {
     margin: 0.75in 0.75in 0.75in 1.25in;
-    @top-left {
+    @top-right {
         content: "STUDENT HANDOUT";
         white-space: pre;
         vertical-align: bottom;
-        text-align: right;
         padding-bottom: 4pt;
     }
 }
-@page:right {
+
+@page chapter:right {
     margin: 0.75in 0.75in 0.75in 1.25in;
     @top-right {
         content: string(doctitle) " | STUDENT HANDOUT";
@@ -47,7 +47,7 @@
         white-space: pre;
     }
 }
-@page:left {
+@page chapter:left {
     margin: 0.75in 1.25in 0.75in 0.75in;
     @top-left {
         content: string(doctitle) " | STUDENT HANDOUT";
