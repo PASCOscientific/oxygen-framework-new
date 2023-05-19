@@ -82,7 +82,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\docx\document.flat.xsl</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/document.flat.xsl</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -105,7 +105,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\docx\document.xsl</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/document.xsl</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -128,7 +128,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\docx\Normal_ms.docx</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/Normal_ms.docx</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -304,7 +304,7 @@
 					<field name="publishingTemplateDataPO">
 						<publishingTemplate>
 							<field name="templateRoot">
-								<String>C:/Users/bpuglies/Documents/OxygenXMLAuthor/oxygen-framework-new/publishing/</String>
+								<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/</String>
 							</field>
 							<field name="descriptorRelativePath">
 								<String>ms-student-pdf.opt</String>
@@ -336,7 +336,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\css\student-ms.css;${frameworkDir(PASCO DITA Map Extension)}\publishing\css\lab-activity.css</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/css/student-ms.css;${frameworkDir(PASCO DITA Map Extension)}/publishing/css/lab-activity.css</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -534,7 +534,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\docx\document.flat.xsl</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/document.flat.xsl</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -557,7 +557,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\docx\document.xsl</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/document.xsl</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -580,7 +580,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\docx\Normal.docx</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/Normal.docx</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -756,7 +756,7 @@
 					<field name="publishingTemplateDataPO">
 						<publishingTemplate>
 							<field name="templateRoot">
-								<String>C:/Users/bpuglies/Documents/OxygenXMLAuthor/oxygen-framework-new/publishing/</String>
+								<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/</String>
 							</field>
 							<field name="descriptorRelativePath">
 								<String>student-pdf.opt</String>
@@ -788,7 +788,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\css\lab-activity.css;${frameworkDir(PASCO DITA Map Extension)}\publishing\css\student.css</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/css/lab-activity.css;${frameworkDir(PASCO DITA Map Extension)}/publishing/css/student.css</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -986,7 +986,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\docx\document.flat.xsl</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/document.flat.xsl</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -1009,7 +1009,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\docx\document_teacher.xsl</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/document_teacher.xsl</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -1032,7 +1032,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\docx\Normal.docx</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/Normal.docx</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -1208,7 +1208,7 @@
 					<field name="publishingTemplateDataPO">
 						<publishingTemplate>
 							<field name="templateRoot">
-								<String>C:/Users/bpuglies/Documents/OxygenXMLAuthor/oxygen-framework-new/publishing/</String>
+								<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/</String>
 							</field>
 							<field name="descriptorRelativePath">
 								<String>teacher-pdf.opt</String>
@@ -1240,7 +1240,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}\publishing\css\lab-activity.css;${frameworkDir(PASCO DITA Map Extension)}\publishing\css\teacher.css</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/css/lab-activity.css;${frameworkDir(PASCO DITA Map Extension)}/publishing/css/teacher.css</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
