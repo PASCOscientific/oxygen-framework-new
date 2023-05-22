@@ -327,31 +327,7 @@
 						<String></String>
 					</field>
 					<field name="ditaParams">
-						<list>
-							<ditaParameter>
-								<field name="name">
-									<String>args.css</String>
-								</field>
-								<field name="description">
-									<null/>
-								</field>
-								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/css/student-ms.css;${frameworkDir(PASCO DITA Map Extension)}/publishing/css/lab-activity.css</String>
-								</field>
-								<field name="defaultValue">
-									<null/>
-								</field>
-								<field name="type">
-									<Integer>2</Integer>
-								</field>
-								<field name="possibleValues">
-									<null/>
-								</field>
-								<field name="possibleValuesDescriptions">
-									<null/>
-								</field>
-							</ditaParameter>
-						</list>
+						<list/>
 					</field>
 					<field name="jvmArgs">
 						<String></String>
