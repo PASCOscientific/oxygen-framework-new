@@ -216,6 +216,11 @@ th[class~="topic/entry"], th[class~="topic/stentry"] {
     margin: 0;
 }
 
+/* Required Parts table */
+.table-minimum td {
+    height: 0.1in;
+}
+
 /* Removes white space above table when there is no table title*/  
 .no-title {
     margin-top: -0.16in;
@@ -232,7 +237,7 @@ th[class~="topic/entry"], th[class~="topic/stentry"] {
 /* Gray out a table cell */
 *[class~="gray-out"],
 *[class~="topic/stentry"] {
-    background-color: #d3d3d3;
+    background-color: #d9d9d9;
 }
 
 /****************************************************************/

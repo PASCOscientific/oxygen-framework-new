@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_zps_44g_4nb">
+    <title>Spectrometry Icons</title>
+    <body>
+        <table frame="none" colsep="1" id="table_owv_wml_4nb">
+            <title>Top Row</title>
+            <tgroup cols="2" align="center">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Icon</entry>
+                        <entry>ID</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><image href="AppDocument.png" id="main-menu">
+                                <alt>Main Menu</alt>
+                            </image></entry>
+                        <entry>main-menu</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AnalyzeSolution.png" id="analyze-solution">
+                                <alt>Analyze Solution Screen</alt>
+                            </image></entry>
+                        <entry>analyze-solution</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AnalyzeConcentration.png" id="concentration">
+                                <alt>Concentration Screen</alt>
+                            </image></entry>
+                        <entry>concentration</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AnalyzeTime.png" id="time">
+                                <alt>Time Screen</alt>
+                            </image></entry>
+                        <entry>time</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AnalyzeLight.png" id="analyze-light">
+                                <alt>Analyze Light Screen</alt>
+                            </image></entry>
+                        <entry>analyze-light</entry>
+                    </row>
+                    <row>
+                        <entry><image href="ConnectedStatus.png" id="connected">
+                                <alt>Spectrometer Connected</alt>
+                            </image></entry>
+                        <entry>connected</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppSnapshot.png" id="snapshot">
+                                <alt>Snapshot</alt>
+                            </image></entry>
+                        <entry>snapshot</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppShowJournal.png" id="journal">
+                                <alt>Journal</alt>
+                            </image></entry>
+                        <entry>journal</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppShare.png" id="share">
+                                <alt>Share</alt>
+                            </image></entry>
+                        <entry>share</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppAbout.png" id="settings">
+                                <alt>Info and Settings</alt>
+                            </image></entry>
+                        <entry>settings</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppWarning.png" id="not-connected">
+                                <alt>Spectrometer Not Connected</alt>
+                            </image></entry>
+                        <entry>not-connected</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppWavelengthMissing.png" id="wavelength-missing">
+                                <alt>Analysis Wavelength Missing</alt>
+                            </image></entry>
+                        <entry>wavelength-missing</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="none" colsep="1" id="table_xl4_jnl_4nb">
+            <title>Bottom Row</title>
+            <tgroup cols="2" align="center">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Icon</entry>
+                        <entry>ID</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><image href="AppRecord.png" id="record">
+                                <alt>Record</alt>
+                            </image></entry>
+                        <entry>record</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppRecordStop.png" id="stop">
+                                <alt>Stop</alt>
+                            </image></entry>
+                        <entry>stop</entry>
+                    </row>
+                    <row>
+                        <entry><image href="CalibrateDark.png" id="calibrate-dark">
+                                <alt>Calibrate Dark</alt>
+                            </image></entry>
+                        <entry>calibrate-dark</entry>
+                    </row>
+                    <row>
+                        <entry><image href="Calibrate.png" id="calibrate-light">
+                                <alt>Calibrate Light</alt>
+                            </image></entry>
+                        <entry>calibrate-light</entry>
+                    </row>
+                    <row>
+                        <entry><image href="calCheckMark.svg" id="calibration-complete">
+                                <alt>Calibration Complete</alt>
+                            </image></entry>
+                        <entry>calibration-complete</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AutoScale.png" id="auto-scale">
+                                <alt>Scale To Fit</alt>
+                            </image></entry>
+                        <entry>auto-scale</entry>
+                    </row>
+                    <row>
+                        <entry><image href="CoordinatesTool.png" id="coordinates">
+                                <alt>Coordinates Tool</alt>
+                            </image></entry>
+                        <entry>coordinates</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AnnotationTool.png" id="annotation">
+                                <alt>Annotation Tool</alt>
+                            </image></entry>
+                        <entry>annotation</entry>
+                    </row>
+                    <row>
+                        <entry><image href="ShowLinearFit.png" id="linear-fit">
+                                <alt>Linear Fit Tool</alt>
+                            </image></entry>
+                        <entry>linear-fit</entry>
+                    </row>
+                    <row>
+                        <entry><image href="SelectTool.png" id="selection-tool">
+                                <alt>Selection Tool</alt>
+                            </image></entry>
+                        <entry>selection-tool</entry>
+                    </row>
+                    <row>
+                        <entry><image href="ShowAllRuns.png" id="all-runs">
+                                <alt>Show All Runs</alt>
+                            </image></entry>
+                        <entry>all-runs</entry>
+                    </row>
+                    <row>
+                        <entry><image href="ShowGradient.png" id="spectrum">
+                                <alt>Show/Hide Spectrum</alt>
+                            </image></entry>
+                        <entry>spectrum</entry>
+                    </row>
+                    <row>
+                        <entry><image href="ShowTwoAxes.png" id="second-axis">
+                                <alt>Show Second y-Axis</alt>
+                            </image></entry>
+                        <entry>second-axis</entry>
+                    </row>
+                    <row>
+                        <entry><image href="ShowWavelengthScanGraph.png" id="live-scan">
+                                <alt>Show Live Scan Display</alt>
+                            </image></entry>
+                        <entry>live-scan</entry>
+                    </row>
+                    <row>
+                        <entry><image href="MonitorTool.png" id="monitor">
+                                <alt>Monitor Tool</alt>
+                            </image></entry>
+                        <entry>monitor</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppNext.png" id="next-reference">
+                                <alt>Next Reference</alt>
+                            </image></entry>
+                        <entry>next-reference</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppPrevious.png" id="previous-reference">
+                                <alt>Previous Reference</alt>
+                            </image></entry>
+                        <entry>previous-reference</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="none" colsep="1" id="table_nwp_znl_4nb">
+            <title>Journal</title>
+            <tgroup cols="2" align="center">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Icon</entry>
+                        <entry>ID</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><image href="AppJournalSave.png" id="save-snapshot">
+                                <alt>Save Snapshot to File </alt>
+                            </image></entry>
+                        <entry>save-snapshot</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppJournalPrint.png" id="print-snapshot">
+                                <alt>Print Snapshot</alt>
+                            </image></entry>
+                        <entry>print-snapshot</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppJournalCopy.png" id="copy-snapshot">
+                                <alt>Copy Snapshot to Clipboard</alt>
+                            </image></entry>
+                        <entry>copy-snapshot</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppJournalDelete.png" id="delete-snapshot">
+                                <alt>Delete Snapshot</alt>
+                            </image></entry>
+                        <entry>delete-snapshot</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppJournalNextSnap.png" id="next-snapshot">
+                                <alt>Next Snapshot</alt>
+                            </image></entry>
+                        <entry>next-snapshot</entry>
+                    </row>
+                    <row>
+                        <entry><image href="AppJournalPreviousSnap.png" id="previous-snapshot">
+                                <alt>Previous Snapshot</alt>
+                            </image></entry>
+                        <entry>previous-snapshot</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <table frame="none" colsep="1" id="table_vpf_f4l_4nb">
+            <title>Graph and Table</title>
+            <tgroup cols="2" align="center">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Icon</entry>
+                        <entry>ID</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><image href="acceptTool.svg" id="accept-wavelength">
+                                <alt>Accept Wavelength</alt>
+                            </image></entry>
+                        <entry>accept-wavelength</entry>
+                    </row>
+                    <row>
+                        <entry><image href="deleteTool.svg" id="remove">
+                                <alt>Remove</alt>
+                            </image></entry>
+                        <entry>remove</entry>
+                    </row>
+                    <row>
+                        <entry><image href="arrow-left-blue.svg" id="previous-point">
+                                <alt>Previous Data Point</alt>
+                            </image></entry>
+                        <entry>previous-point</entry>
+                    </row>
+                    <row>
+                        <entry><image href="arrow-right-blue.svg" id="next-point">
+                                <alt>Next Data Point</alt>
+                            </image></entry>
+                        <entry>next-point</entry>
+                    </row>
+                    <row>
+                        <entry><image href="editNameTool.svg" id="rename">
+                                <alt>Rename</alt>
+                            </image></entry>
+                        <entry>rename</entry>
+                    </row>
+                    <row>
+                        <entry><image href="QuickCalc.png" id="quick-calc">
+                                <alt>Quick Calc</alt>
+                            </image></entry>
+                        <entry>quick-calc</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>
