@@ -150,6 +150,15 @@ p.small {
     margin-bottom: 6px;
 }
 
+/* Side-by-side content such as Materials list */
+
+
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/p"] {
+  display:inline-block;
+  vertical-align:top;
+  width: 45%;
+}  
+
 /****************************************************************/
 /*                      TABLES                                  */
 /****************************************************************/
