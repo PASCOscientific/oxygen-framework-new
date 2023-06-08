@@ -556,7 +556,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/Normal.docx</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/Normal-he.docx</String>
 								</field>
 								<field name="defaultValue">
 									<null/>
@@ -598,7 +598,7 @@
 						<null/>
 					</field>
 					<field name="name">
-						<String>Student Handout (DOCX)</String>
+						<String>Student (DOCX)</String>
 					</field>
 					<field name="baseURL">
 						<null/>
@@ -732,10 +732,10 @@
 					<field name="publishingTemplateDataPO">
 						<publishingTemplate>
 							<field name="templateRoot">
-								<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/</String>
+								<String>${frameworkDir(PASCO DITA Extension)}/publishing/</String>
 							</field>
 							<field name="descriptorRelativePath">
-								<String>student-pdf.opt</String>
+								<String>he-student-pdf.opt</String>
 							</field>
 							<field name="isCustomTemplate">
 								<Boolean>true</Boolean>
@@ -782,7 +782,7 @@
 						<null/>
 					</field>
 					<field name="name">
-						<String>Student Handout (PDF)</String>
+						<String>Student (PDF)</String>
 					</field>
 					<field name="baseURL">
 						<null/>
@@ -1026,7 +1026,7 @@
 						<null/>
 					</field>
 					<field name="name">
-						<String>Teacher Guide (DOCX)</String>
+						<String>Teacher's Guide (DOCX)</String>
 					</field>
 					<field name="baseURL">
 						<null/>
@@ -1210,7 +1210,7 @@
 						<null/>
 					</field>
 					<field name="name">
-						<String>Teacher Guide (PDF)</String>
+						<String>Teacher's Guide (PDF)</String>
 					</field>
 					<field name="baseURL">
 						<null/>

@@ -1,5 +1,4 @@
 /* Add answer space below open questions in a numbered list */
-
 [class~="learning2-d/lcOpenQuestion2"] [class~="learning2-d/lcQuestion2"] {
     padding-bottom: 1in;
 }
@@ -25,8 +24,8 @@
 
 @page chapter:first:right {
     margin: 0.75in 0.75in 0.75in 1.25in;
-    @top-left {
-        content: "NAME                                                                                                                             DATE";
+    @top-right {
+        content: none;
         white-space: pre;
         vertical-align: bottom;
         padding-bottom: 4pt;
@@ -36,7 +35,7 @@
 @page chapter:right {
     margin: 0.75in 0.75in 0.75in 1.25in;
     @top-right {
-        content: string(doctitle) " | STUDENT HANDOUT";
+        content: "" string(doctitle);
         vertical-align: bottom;
         padding-bottom: 4pt;
         white-space: pre;
@@ -52,7 +51,7 @@
 @page chapter:left {
     margin: 0.75in 1.25in 0.75in 0.75in;
     @top-left {
-        content: string(doctitle) " | STUDENT HANDOUT";
+        content: string(doctitle) "";
         vertical-align: bottom;
         padding-bottom: 4pt;
         white-space: pre;
@@ -64,56 +63,4 @@
         white-space: pre;
     }
 }
-
-
-
-
-:root, .p, .dl {
-  font-family: sans-serif;
-}
-
-.topictitle1,
-.topictitle2,
-.topictitle3,
-strong {
-  color: #00B0F0;
-}
-
-.topictitle1 {
-  font-size: 24pt;
-  font-weight: 300;
-}
-.topictitle2 {
-  font-size: 14pt;
-}
-.topictitle3,
-*[class~='topic/p'],
-.li {
-  font-size: 12pt;
-}
-
-*[class~="topic/entry"], [class~="topic/stentry"],
-[oid="materials"] li,
-*[class~="topic/entry"] *[class~="topic/p"],
-*[class~="topic/stentry"] *[class~="topic/p"],
-*[class ~= 'learning2-d/lcOpenAnswer2'] {
-	font-size: 10pt;
-}
-
-.nested0 > .body [class~="topic/p"] {
-	font-size: 14pt;
-}
-
-[oid="materials"] .body,
-[oid="safety"] .body {
-  border: 3px solid #00B0F0;
-  padding: 1em;
-}
-[oid="materials"] .body > *,
-[oid="safety"] .body > * {
-  margin-bottom: 0;
-}
-
-.figcap, .tablecap {
-	font: italic 10pt sans-serif;
-}
+   

@@ -40,12 +40,54 @@
         padding-bottom: 4pt;
         white-space: pre;
     }
+    
     @bottom-right {
-        content: "PASCO        " counter(page);
+        content: url(pasco-logo.png)"        " counter(page);
         vertical-align: top;
         padding-top: 4pt;
         white-space: pre;
     }
+}
+@page chapter:left {
+    margin: 0.75in 1.25in 0.75in 0.75in;
+    @top-left {
+        content: string(doctitle) " | STUDENT HANDOUT";
+        vertical-align: bottom;
+        padding-bottom: 4pt;
+        white-space: pre;
+    }
+    @bottom-left {
+        content: counter(page) "        "url(pasco-logo.png);
+        vertical-align: top;
+        padding-top: 4pt;
+        white-space: pre;
+    }
+}
+    /* These are the old footer styles with text-only:
+@page chapter:first:right {
+    margin: 0.75in 0.75in 0.75in 1.25in;
+    @top-right {
+        content: "STUDENT HANDOUT";
+        white-space: pre;
+        vertical-align: bottom;
+        padding-bottom: 4pt;
+    }
+}
+ * @page chapter:left {
+    margin: 0.75in 1.25in 0.75in 0.75in;
+    @top-left {
+        content: string(doctitle) " | STUDENT HANDOUT";
+        vertical-align: bottom;
+        padding-bottom: 4pt;
+        white-space: pre;
+    }
+        @bottom-right {
+        content: "PASCO        " counter(page);
+        vertical-align: top;
+        padding-top: 4pt;
+        white-space: pre;
+    } 
+   
 }
 @page chapter:left {
     margin: 0.75in 1.25in 0.75in 0.75in;
@@ -61,4 +103,4 @@
         padding-top: 4pt;
         white-space: pre;
     }
-}
+}*/

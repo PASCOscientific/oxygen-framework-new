@@ -111,6 +111,11 @@ sub[class~="hi-d/sub"] {
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
 }
+.answer {
+    font-size: 9pt;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
 
 /* Hyperlinks */
 a {
@@ -119,17 +124,40 @@ a {
     text-decoration: none;
 }
 
-/* Small font suitable for use in Materials list or mini-notes */
-p.small {
+/* Small font suitable for footnote */
+.small p, entry {
     font-size: 8pt;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     margin-top: 0px;
 }
 
+.center {
+    margin: auto;
+}
+
 .bold-italic {
     font-weight: bold;
     font-style: italic;
+}
+
+.ten-pt {
+    font-size: 10pt;
+}
+
+.reduce-gap {
+    margin-bottom: -10px;
+}
+
+
+/* useful to reduce height to minimum when only 1 line or bulleted list */
+.skinny {
+    line-height: 85%;
+}
+
+/* minimum height between lines when multiple lines of content */
+.skinny-multi {
+    line-height: 1.1em;
 }
 
 /****************************************************************/
@@ -156,8 +184,10 @@ p.small {
 *[outputclass ~= "side-by-side"] > *[class ~= "topic/p"] {
   display:inline-block;
   vertical-align:top;
-  width: 45%;
+  width: 48%;
 }  
+
+
 
 /****************************************************************/
 /*                      TABLES                                  */
@@ -223,6 +253,18 @@ th[class~="topic/entry"], th[class~="topic/stentry"] {
 }
 .single-value caption {
     margin: 0;
+}
+
+/* Use with a 1-cell table when footnotes are required for a 2-column materials list */
+.materials-note {
+    border: 0px;
+    font-size: 8pt;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
 }
 
 /* Required Parts table */
