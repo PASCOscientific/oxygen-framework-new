@@ -112,7 +112,7 @@ sub[class~="hi-d/sub"] {
     font-family: 'Roboto', sans-serif;
 }
 .answer {
-    font-size: 9pt;
+    font-size: inherit;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
 }
@@ -125,11 +125,12 @@ a {
 }
 
 /* Small font suitable for footnote */
-.small p, entry {
+.small {
     font-size: 8pt;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
-    margin-top: 0px;
+    margin-top: 2px;
+    margin-left: 10px;
 }
 
 .center {
@@ -184,7 +185,7 @@ a {
 *[outputclass ~= "side-by-side"] > *[class ~= "topic/p"] {
   display:inline-block;
   vertical-align:top;
-  width: 48%;
+  width: 49%;
 }  
 
 
@@ -236,10 +237,13 @@ th[class~="topic/entry"], th[class~="topic/stentry"] {
 /* Fill-in-the-blank type tables */  
 .single-value {
     border: 1px;
+    padding: 0;
+    font-size: 10pt;
 }
 .single-value td:first-child:after {
     content: " =";
     white-space: pre;
+    vertical-align: bottom;
 }
 .single-value td:first-child {
     text-align: right;
@@ -253,18 +257,6 @@ th[class~="topic/entry"], th[class~="topic/stentry"] {
 }
 .single-value caption {
     margin: 0;
-}
-
-/* Use with a 1-cell table when footnotes are required for a 2-column materials list */
-.materials-note {
-    border: 0px;
-    font-size: 8pt;
-    font-family: 'Roboto', sans-serif;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    display: block;
-    width: 100%;
 }
 
 /* Required Parts table */
