@@ -735,7 +735,7 @@
 								<String>${frameworkDir(PASCO DITA Extension)}/publishing/</String>
 							</field>
 							<field name="descriptorRelativePath">
-								<String>he-student-pdf.opt</String>
+								<String>student-pdf.opt</String>
 							</field>
 							<field name="isCustomTemplate">
 								<Boolean>true</Boolean>
