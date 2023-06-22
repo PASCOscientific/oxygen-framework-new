@@ -556,7 +556,7 @@
 									<null/>
 								</field>
 								<field name="value">
-									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/Normal-he.docx</String>
+									<String>${frameworkDir(PASCO DITA Map Extension)}/publishing/docx/Normal.docx</String>
 								</field>
 								<field name="defaultValue">
 									<null/>

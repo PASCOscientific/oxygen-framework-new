@@ -42,7 +42,10 @@
     }
     
     @bottom-right {
-        content: url(pasco_logo_2017.svg)"        " counter(page);
+        content: counter(page);
+        background-image: url("images/pasco_logo_2017.svg");
+		background-position: 93% 7%;
+        background-repeat: no-repeat;
         vertical-align: top;
         padding-top: 4pt;
         white-space: pre;
@@ -57,8 +60,11 @@
         white-space: pre;
     }
     @bottom-left {
-        content: counter(page) "        "url(pasco_logo_2017.svg);
-        vertical-align: top;
+        content: counter(page);
+        background-image: url("images/pasco_logo_2017.svg");
+        background-repeat: no-repeat;
+		background-position: 7% 7%;
+		vertical-align: top;
         padding-top: 4pt;
         white-space: pre;
     }
