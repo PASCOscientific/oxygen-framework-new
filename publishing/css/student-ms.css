@@ -82,12 +82,12 @@
 .topictitle2,
 .topictitle3,
 strong {
-  color: #00B0F0;
+  color: #008dc9;
 }
 
 .topictitle1 {
   font-size: 24pt;
-  font-weight: 300;
+  font-weight: normal;
 }
 .topictitle2 {
   font-size: 14pt;
@@ -112,7 +112,7 @@ strong {
 
 [oid="materials"] .body,
 [oid="safety"] .body {
-  border: 3px solid #00B0F0;
+  border: 3px solid #008dc9;
   padding: 1em;
 }
 [oid="materials"] .body > *,

@@ -40,7 +40,7 @@
             </w:pPr>
         </w:p>
     </xsl:template>
-
+    
     <!-- Do not display draft-comment. This needs to be fixed using args.draft = no in the future. -->
     <xsl:template match="*[contains(@class, ' topic/draft-comment ')]" priority="10"/>
     
@@ -60,8 +60,7 @@
             <xsl:call-template name="end-bookmark"/>
         </xsl:if>
     </xsl:template>
-    
-    
+     
     <!-- ******************************************************************************************** -->
     <!--                              STYLES FROM ORIGINAL STUDENT LAB TOPIC                          -->
     <!-- ******************************************************************************************** -->
