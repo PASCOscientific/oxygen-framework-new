@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//PASCO//DTD DITA Learning Topic//EN" "lc-topic.dtd">
+<topic id="student_handout" outputclass="lab_activity" xml:lang="en-us">
+    <title id="lab_title"><?oxy-placeholder content="Enter the Lab Title Capitalize all Major Words..."?></title>
+    <body>
+        <draft-comment author="bpuglies">See the <xref
+                href="http://confluence.pasco.com/display/ENG/DITA+Authoring+Tips#DITAAuthoringTips"
+                format="html" scope="external">DITA Authoring Tips Confluence page</xref> for
+            formatting tips.</draft-comment>
+        <p><?oxy-placeholder content="Enter the investigation question..."?></p>
+    </body>
+    <topic id="objectives">
+        <title>Objectives</title>
+        <body>
+            <ul>
+                <li><?oxy-placeholder content="Enter an objective..."?></li>
+            </ul>
+        </body>
+    </topic>
+    <topic id="materials">
+        <title>Materials and Equipment</title>
+        <body>
+            <draft-comment author="bpuglies">Choose either table or 2-column list, and delete the
+                style you do not need. For 2 column lists, divide the li elements equally between
+                the two lists wrapped in p elements. If you want a one-column list instead of
+                2-columns, delete the 2nd p element. </draft-comment>
+            <div outputclass="side-by-side">
+                <p>
+                    <ul id="ul_xm4_npb_rxb">
+                        <li><?oxy-placeholder content="Computer or mobile device (Capstone-specific: remove 'mobile device')"?></li>
+                        <li><ph><?oxy-placeholder content="PASCO item"?></ph><ph props="teacher">
+                                (</ph><ph props="teacher"
+                                ><?oxy-placeholder content="##-####"?></ph><ph props="teacher"
+                                >)</ph></li>
+                        <li><?oxy-placeholder content="Items (3)"?></li>
+                    </ul>
+                </p>
+                <p>
+                    <ul id="ul_dkc_4pb_rxb">
+                        <li><?oxy-placeholder content="Amount of item needed, 250 mL"?></li>
+                        <li><?oxy-placeholder content="Capacity or size of items (3), 250-mL"?></li>
+                    </ul>
+                </p>
+            </div>
+            <table outputclass="table-minimum">
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1" colwidth="1*" align="center"/>
+                    <colspec colname="c2" colnum="2" colwidth="4*" align="left"/>
+                    <colspec colname="c3" colnum="3" colwidth="1*" align="center"/>
+                    <thead>
+                        <row>
+                            <entry>Part Number</entry>
+                            <entry>Description</entry>
+                            <entry>Qty</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>1</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>2</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>3</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>4</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>5</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>6</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>7</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>8</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>9</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>10</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>11</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>12</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>13</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>14</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry>2</entry>
+                        </row>
+                        <row>
+                            <entry>15</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>16</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>17</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>18</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>19</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                        <row>
+                            <entry>20</entry>
+                            <entry><?oxy-placeholder content="Enter content..."?></entry>
+                            <entry><?oxy-placeholder content="Enter#"?></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </body>
+    </topic>
+    <topic id="safety">
+        <title>Safety</title>
+        <body>
+            <draft-comment>
+                <p>Delete the elements that are not needed.</p>
+            </draft-comment>
+            <p>Follow these important safety precautions in addition to your regular classroom
+                procedures:</p>
+            <ul>
+                <li><?oxy-placeholder content="Enter a safety statement..."?></li>
+            </ul>
+            <p>Follow regular laboratory safety precautions.</p>
+        </body>
+    </topic>
+    <topic id="procedure">
+        <title>Procedure</title>
+        <body>
+            <draft-comment>
+                <p>If the procedure has multiple parts, nest a new topic in the Procedure topic for
+                    each part.</p>
+            </draft-comment>
+            <ol>
+                <li><?oxy-placeholder content="Enter step 1..."?></li>
+                <li><?oxy-placeholder content="Enter step 2..."?></li>
+                <li><?oxy-placeholder content="Connect the ##### sensor to your computer or mobile device. (leave out mobile device for Capstone-specific)"?></li>
+                <li><?oxy-placeholder content="Choose the ##### template. (-OR-) Choose the ##### Quick Start Experiment."?></li>
+            </ol>
+            <draft-comment>Block images need to be nested in a figure element with image placement
+                set to 'break'. Add a title to automatically number a figure as a reference. Remove
+                the title if you do not want the figure to be numbered. </draft-comment>
+            <fig>
+                <title><?oxy-placeholder content="Enter title for the figure, capitalize only 1st word..."?></title>
+                <image href="../images/graphics-placeholder.png" placement="break" align="center"/>
+            </fig>
+        </body>
+        <topic id="part-1">
+            <title><?oxy-placeholder content="Enter Title for Part 1, Capitalize Every Word..."?></title>
+            <body>
+                <ol>
+                    <li><?oxy-placeholder content="Enter step 1..."?></li>
+                </ol>
+            </body>
+        </topic>
+    </topic>
+    <topic id="data-collection">
+        <title>Data Collection</title>
+        <body>
+            <draft-comment>A graph should be inserted as a "Figure". Insert a graph using the reuse
+                folder inside the Project tab. Make sure all tables and graphs have titles. To give
+                the graph a title, use the paragraph element, not the title element.  If you want
+                the STUDENT to come up with their own title, bring the p element outside the fig tag
+                to left-align "Graph 1:" as a prompt for students. Graphs are not automatically
+                numbered; you need to update the number manually if you have more than one
+                graph.</draft-comment>
+            <p outputclass="no-break">Graph
+                    1: <ph><?oxy-placeholder content="Enter Graph Title if Given to Students, Capitalize Every Word"?></ph></p>
+            <image placement="break" href="../reuse/images/ws-graph-fine.png" align="center"
+                id="image_ml2_kmn_xvb" props="student"/>
+            <image placement="break" href="../reuse/images/ws-graph-fine.png" align="center"
+                id="image_p5s_nmn_xvb" props="teacher"/>
+            <table>
+                <title><?oxy-placeholder content="Enter a Title Capitalize Every Word"?></title>
+                <tgroup cols="3">
+                    <colspec colname="c1" colnum="1"/>
+                    <colspec colname="c2" colnum="2"/>
+                    <colspec colname="c3" colnum="3"/>
+                    <thead>
+                        <row>
+                            <entry><?oxy-placeholder content="Enter a heading capitalize 1st word..."?></entry>
+                            <entry/>
+                            <entry/>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry align="left" valign="middle"
+                                ><?oxy-placeholder content="Enter student visible content..."?></entry>                            
+                            <entry align="center" valign="middle"><ph props="teacher"
+                                    outputclass="answer"
+                                    ><?oxy-placeholder content="Enter teacher-only visible content..."?></ph></entry>
+                            <entry align="center" valign="middle"><ph props="teacher"
+                                    outputclass="answer"
+                                    ><?oxy-placeholder content="Enter teacher-only visible content..."?></ph></entry>
+                        </row>
+                        <row>
+                            <entry align="left" valign="middle"/>
+                            <entry align="center" valign="middle"><ph props="teacher"
+                                    outputclass="answer"
+                                    ><?oxy-placeholder content="Enter teacher-only visible content..."?></ph></entry>
+                            <entry align="center" valign="middle"><ph props="teacher"
+                                    outputclass="answer"
+                                    ><?oxy-placeholder content="Enter teacher-only visible content..."?></ph></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </body>
+    </topic>
+    <topic id="questions">
+        <title>Questions and Analysis</title>
+        <body>
+            <draft-comment author="bpuglies">Use this MathType equation template if needed; visit
+                the Confluence page for tips: <xref
+                    href="https://confluence.pasco.com/display/ENG/Adding+Equations+to+Oxygen"
+                    format="html" scope="external"/><equation-block id="equation-block_yj4_nqt_sxb"><mathml>
+                        <m:math display="block">
+                            <m:mrow>
+                                <m:mtext>Double-click&#x00A0;inside&#x00A0;here&#x00A0;and&#x00A0;paste&#x00A0;your&#x00A0;MathML&#x00A0;content&#x00A0;into&#x00A0;the&#x00A0;editor</m:mtext>
+                                <m:mtext>.</m:mtext>
+                            </m:mrow>
+                        </m:math>
+                    </mathml></equation-block></draft-comment>
+            <ol>
+                <li>
+                    <lcOpenQuestion2>
+                        <lcQuestion2><?oxy-placeholder content="Enter a question..."?></lcQuestion2>
+                        <lcOpenAnswer2><?oxy-placeholder content="Enter an answer..."?></lcOpenAnswer2>
+                    </lcOpenQuestion2>
+                </li>
+                <li>
+                    <lcOpenQuestion2>
+                        <lcQuestion2><?oxy-placeholder content="Enter a question..."?></lcQuestion2>
+                        <lcOpenAnswer2><?oxy-placeholder content="Enter an answer..."?></lcOpenAnswer2>
+                    </lcOpenQuestion2>
+                </li>
+                <li>
+                    <lcOpenQuestion2>
+                        <lcQuestion2><?oxy-placeholder content="Enter a question..."?></lcQuestion2>
+                        <lcOpenAnswer2><?oxy-placeholder content="Enter an answer..."?></lcOpenAnswer2>
+                    </lcOpenQuestion2>
+                </li>
+                <li>
+                    <lcOpenQuestion2>
+                        <lcQuestion2><?oxy-placeholder content="Enter a question..."?></lcQuestion2>
+                        <lcOpenAnswer2><?oxy-placeholder content="Enter an answer..."?></lcOpenAnswer2>
+                    </lcOpenQuestion2>
+                </li>
+            </ol>
+        </body>
+    </topic>
+</topic>

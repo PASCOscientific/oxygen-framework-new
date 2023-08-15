@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//PASCO//DTD DITA Learning Topic//EN" "lc-topic.dtd">
+<topic id="teacher_guide" outputclass="teacher_guide" xml:lang="en-us">
+    <title conref="Lab-Activity-Title-S.dita#student_handout/lab_title"/>           
+    <topic id="procedural-overview">
+        <title>Procedural Overview</title>
+        <prolog>
+            <metadata>
+                <othermeta name="NGSS" content="Entry Here"/>
+            </metadata>
+        </prolog>
+        <body>
+            <draft-comment author="bpuglies">Add the NGSS Disciplinary Core Idea(s) to the 'Entry
+                Here' box above (i.e., HS-LS1.C). If you are using a different set of standards,
+                replace 'NGSS' with the standards title.</draft-comment>
+            <p><?oxy-placeholder content="Enter a short statement that includes investigation goal and major PASCO equipment used..."?></p>
+        </body>
+    </topic>
+    <topic id="time-requirements">
+        <title>Time Requirements</title>
+        <body>
+            <p><ph><b>Teacher Preparation: </b></ph> <ph><?oxy-placeholder content="Enter time in minutes"?></ph></p>
+            <p><ph><b>Student Procedure: </b></ph> <ph><?oxy-placeholder content="Enter time in minutes"?></ph></p>
+        </body>
+    </topic>
+    <topic id="objectives" conref="Lab-Activity-Title-S.dita#objectives">
+        <title/>
+    </topic>
+    <topic id="materials" conref="Lab-Activity-Title-S.dita#materials">
+        <title/>
+    </topic>
+    <topic id="teacher-tips">
+        <title>Teacher Tips</title>
+        <body>
+            <draft-comment>Include the first bullet if using wireless sensors; include the second
+                bullet if desired. Otherwise, delete.</draft-comment>
+            <ul>
+                <li>For best results, fully charge wireless devices before starting the
+                    investigation.</li>
+                <li>If you or your students would like more detailed instructions on how to use any
+                    software feature, select Help in the menu at the top of the screen.</li>
+            </ul>
+        </body>
+    </topic>
+    <topic id="safety" conref="Lab-Activity-Title-S.dita#safety">
+        <title/>
+    </topic>
+    <topic id="data-collection" conref="Lab-Activity-Title-S.dita#data-collection">
+        <title/>
+    </topic>
+    <topic id="questions" conref="Lab-Activity-Title-S.dita#questions">
+        <title/>
+    </topic>
+    <topic id="extension">
+        <title>Extension</title>
+        <body>
+            <dl outputclass="extension">
+                <dlentry>
+                    <dt><?oxy-placeholder content="Enter Activity Title, Capitalize Major Words..."?></dt>
+                    <dd><?oxy-placeholder content="Enter activity description..."?></dd>
+                </dlentry>
+                <dlentry>
+                    <dt><?oxy-placeholder content="Enter Activity Title, Capitalize Major Words..."?></dt>
+                    <dd><?oxy-placeholder content="Enter activity description..."?></dd>
+                </dlentry>
+                <dlentry>
+                    <dt><?oxy-placeholder content="Enter Activity Title, Capitalize Major Words..."?></dt>
+                    <dd><?oxy-placeholder content="Enter activity description..."?></dd>
+                </dlentry>
+            </dl>
+               
+        </body>
+    </topic>
+    <topic id="id_xjh_2nn_xvb" conref="../reuse/technical-support-contact.dita"
+        outputclass="support">
+        <title/>
+    </topic>
+</topic>

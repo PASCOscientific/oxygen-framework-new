@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="technical_support" outputclass="tech_support">
+    <title id="title-802">Technical Support</title>
+    <body>
+        <p>Need more help? Our knowledgeable and friendly Technical Support staff is ready to
+            provide assistance with this or any other PASCO product. </p>
+        <table id="tech-support-contact">
+            <tgroup cols="2">
+                <colspec colname="c1" colnum="1"/>
+                <colspec colname="c2" colnum="2"/>
+                <tbody>
+                    <row>
+                        <entry>Phone (USA)</entry>
+                        <entry>1-800-772-8700 (Option 4)</entry>
+                    </row>
+                    <row>
+                        <entry>Phone (International)</entry>
+                        <entry>+1 916 462 8384</entry>
+                    </row>
+                    <row>
+                        <entry>Online</entry>
+                        <entry><xref href="http://www.pasco.com/support" format="html"
+                                scope="external">pasco.com/support</xref></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </body>
+</topic>

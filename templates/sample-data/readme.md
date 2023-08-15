@@ -1,0 +1,1 @@
+This folder contains SPARKvue and Capstone files which contain sample data when performing the lab.

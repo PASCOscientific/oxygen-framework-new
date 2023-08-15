@@ -106,11 +106,16 @@ sub[class~="hi-d/sub"] {
     src: url(../software-fonts/chemvue_3_D.ttf);
 }
 
-/* Add all software fonts available to the following at end of font-family attribute definitions */
+/* Specific software font statements */
 
 body {
     font-family: "Times New Roman", chemvue;
 }
+
+.chm {
+	font-family: chemvue;
+}
+
 
 /* Fonts for table text */
 *[class~="topic/entry"], [class~="topic/stentry"] {
