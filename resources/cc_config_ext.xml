@@ -463,6 +463,10 @@
 		<items action="replace">
 			<item value="student"/>
 			<item value="teacher"/>
+			<item value="sparkvue"/>
+			<item value="capstone"/>
+			<item value="chemvue"/>
+			<item value="spectrometry"/>
 		</items>
 	</match>
 	

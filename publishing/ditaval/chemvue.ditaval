@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+    <prop action="exclude" att="props" val="capstone"/>
+    <prop action="exclude" att="props" val="sparkvue"/>
+    <prop action="exclude" att="props" val="chemvue"/>
+</val>
