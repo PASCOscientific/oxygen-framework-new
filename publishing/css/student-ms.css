@@ -71,13 +71,6 @@
 	}
 }
 
-
-
-
-:root, .p, .dl {
-  font-family: sans-serif;
-}
-
 .topictitle1,
 .topictitle2,
 .topictitle3,
@@ -121,5 +114,5 @@ strong {
 }
 
 .figcap, .tablecap {
-	font: italic 10pt sans-serif;
+	font: italic 10pt ;
 }

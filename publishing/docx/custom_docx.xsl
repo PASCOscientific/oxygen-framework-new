@@ -31,7 +31,19 @@
     
     <!-- Remove elements with @props = 'teacher' -->
     <xsl:template match="*[contains(@props, 'teacher')]"/>
+    
+    <!-- Remove elements with @props = 'teacher' inside a data table -->
+    <xsl:template match="//td[@props, 'teacher']"/>
    
+    <!-- Replace lcOpenAnswer2 in Analysis section with Answer Space -->
+    <xsl:template match="*[@oid='analysis']//*[contains(@class, ' learning2-d/lcOpenAnswer2 ')]">
+        <w:p>
+            <w:pPr>
+                <w:pStyle w:val="AnswerSpace3Lines"/>
+            </w:pPr>
+        </w:p>
+    </xsl:template>
+    
     <!-- Replace lcOpenAnswer2 in Questions section with Answer Space -->
     <xsl:template match="*[@oid='questions']//*[contains(@class, ' learning2-d/lcOpenAnswer2 ')]">
         <w:p>
@@ -47,6 +59,11 @@
     <!-- Note element style -->
     <xsl:template match="*[contains(@class, ' topic/note ')]/*" mode="block-style">
         <w:pStyle w:val="Note"/>
+    </xsl:template>
+    
+    <!-- chemvue style -->
+    <xsl:template match="*[contains(@class, ' ui-d/uicontrol ')]" mode="inline-style" priority="10">
+        <w:rStyle w:val="chemvue"/>
     </xsl:template>
     
     <!-- Set figure title at the bottom of the figure -->

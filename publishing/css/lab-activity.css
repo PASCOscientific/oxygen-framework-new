@@ -106,14 +106,8 @@ sub[class~="hi-d/sub"] {
     src: url(../software-fonts/chemvue_3_D.ttf);
 }
 
-/* Specific software font statements */
-
 body {
     font-family: "Times New Roman", chemvue;
-}
-
-.chm {
-	font-family: chemvue;
 }
 
 

@@ -35,7 +35,7 @@
 @page chapter:right {
     margin: 0.75in 0.75in 0.75in 1.25in;
     @top-right {
-        content: string(doctitle) " | STUDENT HANDOUT";
+        content: string(doctitle);
         vertical-align: bottom;
         padding-bottom: 4pt;
         white-space: pre;
@@ -54,7 +54,7 @@
 @page chapter:left {
     margin: 0.75in 1.25in 0.75in 0.75in;
     @top-left {
-        content: string(doctitle) " | STUDENT HANDOUT";
+        content: string(doctitle);
         vertical-align: bottom;
         padding-bottom: 4pt;
         white-space: pre;
