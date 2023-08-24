@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic-6843" xml:lang="en-us">
+    <title>Callouts</title>
+    <body>
+        <draft-comment author="bpuglies">Copy the desired item including the  &lt;ph
+            outputclass="answer"> tag and paste into your DITA topic (example: <ph
+                outputclass="answer">①</ph>)</draft-comment>
+    </body>
+    <topic id="topic_byp_zdb_txb">
+        <title>Numbers</title>
+        <body>
+            <p><ph outputclass="answer">①</ph><ph outputclass="answer">②</ph><ph
+                    outputclass="answer">③</ph><ph outputclass="answer">④</ph><ph
+                    outputclass="answer">⑤</ph><ph outputclass="answer">⑥</ph><ph
+                    outputclass="answer">⑦</ph><ph outputclass="answer">⑧</ph><ph
+                    outputclass="answer">⑨</ph><ph outputclass="answer">⑩</ph><ph
+                    outputclass="answer">⑪</ph><ph outputclass="answer">⑫</ph><ph
+                    outputclass="answer">⑬</ph><ph outputclass="answer">⑭</ph><ph
+                    outputclass="answer">⑮</ph><ph outputclass="answer">⑯</ph><ph
+                    outputclass="answer">⑰</ph><ph outputclass="answer">⑱</ph><ph
+                    outputclass="answer">⑲</ph><ph outputclass="answer">⑳</ph></p>
+        </body>
+    </topic>
+    <topic id="topic_q4s_ydb_txb">
+        <title>Upper-Case Letters</title>
+        <body>
+            <p><ph outputclass="answer">Ⓐ</ph><ph outputclass="answer">Ⓑ</ph><ph
+                    outputclass="answer">Ⓒ</ph><ph outputclass="answer">Ⓓ</ph><ph
+                    outputclass="answer">Ⓔ</ph><ph outputclass="answer">Ⓕ</ph><ph
+                    outputclass="answer">Ⓖ</ph><ph outputclass="answer">Ⓗ</ph><ph
+                    outputclass="answer">Ⓘ</ph><ph outputclass="answer">Ⓙ</ph><ph
+                    outputclass="answer">Ⓚ</ph><ph outputclass="answer">Ⓛ</ph><ph
+                    outputclass="answer">Ⓜ</ph><ph outputclass="answer">Ⓝ</ph><ph
+                    outputclass="answer">Ⓞ</ph><ph outputclass="answer">Ⓟ</ph><ph
+                    outputclass="answer">Ⓠ</ph><ph outputclass="answer">Ⓡ</ph><ph
+                    outputclass="answer">Ⓢ</ph><ph outputclass="answer">Ⓣ</ph><ph
+                    outputclass="answer">Ⓤ</ph><ph outputclass="answer">Ⓥ</ph><ph
+                    outputclass="answer">Ⓦ</ph><ph outputclass="answer">Ⓧ</ph><ph
+                    outputclass="answer">Ⓨ</ph><ph outputclass="answer">Ⓩ</ph></p>
+        </body>
+    </topic>
+</topic>
