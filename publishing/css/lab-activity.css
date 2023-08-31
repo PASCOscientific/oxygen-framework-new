@@ -145,15 +145,6 @@ a {
     margin-left: 10px;
 }
 
-/* useful to reduce height to minimum when only 1 line or bulleted list */
-.skinny {
-    line-height: 85%;
-}
-
-/* minimum height between lines when multiple lines of content */
-.skinny-multi {
-    line-height: 1.1em;
-}
 
 /* Align MathType left instead of center */
 
@@ -264,18 +255,11 @@ th[class~="topic/entry"], th[class~="topic/stentry"] {
     height: 0.1in;
 }
 
-/* Removes white space above table when there is no table title*/  
-.no-title {
-    margin-top: -0.16in;
-}
 
 .short {
     height: 0.1in;
 }
 
-.very-short {
-    height: 0.075in;
-}
 
 /* Gray out a table cell */
 *[class~="gray-out"],
