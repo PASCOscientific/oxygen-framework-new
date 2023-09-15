@@ -153,6 +153,18 @@ a {
     text-align: left;
     font-family: "Times New Roman", Times, serif;
 }
+/* Indent and align MathType left instead of center */
+
+*[class ~="equation-d/equation-block"][outputclass ~= "indent-left"],
+*[class ~="equation-d/equation-inline"][outputclass ~= "indent-left"]{
+    text-align: left;
+    font-family: "Times New Roman", Times, serif;
+	
+}
+
+.indent-left {
+	margin-left: 100px;
+}
 
 /****************************************************************/
 /*                      LISTS                                   */

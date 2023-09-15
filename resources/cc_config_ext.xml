@@ -473,6 +473,9 @@
 		<items action="append">
 			<item value="single-value"/>
 			<item value="table-minimum"/>
+			<item value="left"/>
+			<item value="indent-left"/>
+			<item value="small"/>
 		</items>
 	</match>
 		
