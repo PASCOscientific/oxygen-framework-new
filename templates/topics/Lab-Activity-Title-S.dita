@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//PASCO//DTD DITA Learning Topic//EN" "lc-topic.dtd">
-<topic id="student_handout" outputclass="lab_activity" xml:lang="en-us">
+<topic id="student-handout" outputclass="lab-activity" xml:lang="en-us">
     <title id="lab_title"><?oxy-placeholder content="Enter the Lab Title Capitalize all Major Words..."?></title>
     <body>
         <draft-comment author="bpuglies">See the <xref
                 href="http://confluence.pasco.com/display/ENG/DITA+Authoring+Tips#DITAAuthoringTips"
                 format="html" scope="external">DITA Authoring Tips Confluence page</xref> for
             formatting tips.</draft-comment>
+        <draft-comment author="bpuglies">Add or remove Student-only or Teacher-only topics as
+            needed. If you need to add a topic where some or all content must appear in BOTH Student
+            and Teacher documents, visit the Confluence page for directions:<xref
+                href="https://confluence.pasco.com/display/ENG/DITA+Authoring+Tips#DITAAuthoringTips-AddingorRemovingTopicsforHELabModifications"
+                format="html" scope="external"/>
+        </draft-comment>
         <p><?oxy-placeholder content="Enter the investigation question..."?></p>
     </body>
     <topic id="objectives">
         <title>Objectives</title>
         <body>
             <ul>
-                <li><?oxy-placeholder content="Enter an objective..."?></li>
+                <li><?oxy-placeholder content="Enter an objective in verb-the-thing format..."?></li>
             </ul>
         </body>
     </topic>
@@ -49,109 +55,34 @@
                     <colspec colname="c3" colnum="3" colwidth="1*" align="center"/>
                     <thead>
                         <row>
-                            <entry>Part Number</entry>
+                            <entry>Part number</entry>
                             <entry>Description</entry>
                             <entry>Qty</entry>
                         </row>
                     </thead>
                     <tbody>
                         <row>
-                            <entry>1</entry>
+                            <entry><?oxy-placeholder content="##-####"?></entry>
                             <entry><?oxy-placeholder content="Enter content..."?></entry>
                             <entry><?oxy-placeholder content="Enter#"?></entry>
                         </row>
                         <row>
-                            <entry>2</entry>
+                            <entry><?oxy-placeholder content="##-####"?></entry>
                             <entry><?oxy-placeholder content="Enter content..."?></entry>
                             <entry><?oxy-placeholder content="Enter#"?></entry>
                         </row>
                         <row>
-                            <entry>3</entry>
+                            <entry><?oxy-placeholder content="##-####"?></entry>
                             <entry><?oxy-placeholder content="Enter content..."?></entry>
                             <entry><?oxy-placeholder content="Enter#"?></entry>
                         </row>
                         <row>
-                            <entry>4</entry>
+                            <entry><?oxy-placeholder content="##-####"?></entry>
                             <entry><?oxy-placeholder content="Enter content..."?></entry>
                             <entry><?oxy-placeholder content="Enter#"?></entry>
                         </row>
                         <row>
-                            <entry>5</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>6</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>7</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>8</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>9</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>10</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>11</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>12</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>13</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>14</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry>2</entry>
-                        </row>
-                        <row>
-                            <entry>15</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>16</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>17</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>18</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>19</entry>
-                            <entry><?oxy-placeholder content="Enter content..."?></entry>
-                            <entry><?oxy-placeholder content="Enter#"?></entry>
-                        </row>
-                        <row>
-                            <entry>20</entry>
+                            <entry><?oxy-placeholder content="##-####"?></entry>
                             <entry><?oxy-placeholder content="Enter content..."?></entry>
                             <entry><?oxy-placeholder content="Enter#"?></entry>
                         </row>
@@ -215,13 +146,13 @@
                 numbered; you need to update the number manually if you have more than one
                 graph.</draft-comment>
             <p outputclass="no-break">Graph
-                    1: <ph><?oxy-placeholder content="Enter Graph Title if Given to Students, Capitalize Every Word"?></ph></p>
+                1: <ph><?oxy-placeholder content="Enter graph title if given to students, capitalize 1st word"?></ph></p>
             <image placement="break" href="../reuse/images/ws-graph-fine.png" align="center"
                 id="image_ml2_kmn_xvb" props="student"/>
             <image placement="break" href="../reuse/images/ws-graph-fine.png" align="center"
                 id="image_p5s_nmn_xvb" props="teacher"/>
             <table>
-                <title><?oxy-placeholder content="Enter a Title Capitalize Every Word"?></title>
+                <title><?oxy-placeholder content="Title - capitalize only first word"?></title>
                 <tgroup cols="3">
                     <colspec colname="c1" colnum="1"/>
                     <colspec colname="c2" colnum="2"/>

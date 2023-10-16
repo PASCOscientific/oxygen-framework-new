@@ -1,31 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <meta>
-        <filters directoryPatterns="" filePatterns="\QlabTemplate.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <filters directoryPatterns="" filePatterns="\QlabTemplatev2.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
             <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
-                        <String>additional.frameworks.directories</String>
-                        <String-array>
-                            <String>${pd}/framework</String>
-                        </String-array>
-                    </entry>
-                    <entry>
-                        <String>enable.project.master.files.support</String>
-                        <Boolean>true</Boolean>
+                        <String>scenario.associations</String>
+                        <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>lab-activity-title-spk.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>3/oxygen-framework-new/ditamap-extension.exf/PASCO DITA Map Extension/Student (PDF)</String>
+                                        <String>3/oxygen-framework-new/ditamap-extension.exf/PASCO DITA Map Extension/Teacher's Guide (PDF)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>lab-activity-title-spc.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>3/oxygen-framework-new/ditamap-extension.exf/PASCO DITA Map Extension/Student (PDF)</String>
+                                        <String>3/oxygen-framework-new/ditamap-extension.exf/PASCO DITA Map Extension/Teacher's Guide (PDF)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>lab-activity-title-chm.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>3/oxygen-framework-new/ditamap-extension.exf/PASCO DITA Map Extension/Student (PDF)</String>
+                                        <String>3/oxygen-framework-new/ditamap-extension.exf/PASCO DITA Map Extension/Teacher's Guide (PDF)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>lab-activity-title-cap.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>3/oxygen-framework-new/ditamap-extension.exf/PASCO DITA Map Extension/Student (PDF)</String>
+                                        <String>3/oxygen-framework-new/ditamap-extension.exf/PASCO DITA Map Extension/Teacher's Guide (PDF)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                        </scenarioAssociation-array>
                     </entry>
                 </serializableOrderedMap>
             </serialized>
         </options>
     </meta>
-    <projectTree name="labTemplate.xpr">
-        <folder masterFiles="true" name="Main Files">
-            <file name="lab-activity-title-cap.ditamap"/>
-            <file name="lab-activity-title-chm.ditamap"/>
-            <file name="lab-activity-title-spc.ditamap"/>
-            <file name="lab-activity-title-spk.ditamap"/>
-        </folder>
+    <projectTree name="labTemplatev2.xpr">
         <folder path="."/>
     </projectTree>
 </project>

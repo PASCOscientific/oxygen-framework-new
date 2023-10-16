@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map id="lab_activity_title">
-    <title conref="topics/Lab-Activity-Title-S.dita#student_handout/lab_title"/>
+    <title conref="topics/Lab-Activity-Title-S.dita#student-handout/lab_title"/>
     <topicref href="topics/Lab-Activity-Title-S.dita" navtitle="Student Version"/>
     <topicref href="topics/Lab-Activity-Title-T.dita" navtitle="Teacher Version"/>
     <ditavalref href="ditaval/spectrometry.ditaval" format="ditaval"/>

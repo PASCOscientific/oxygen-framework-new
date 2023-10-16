@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//PASCO//DTD DITA Learning Topic//EN" "lc-topic.dtd">
-<topic id="teacher_guide" outputclass="teacher_guide" xml:lang="en-us">
-    <title conref="Lab-Activity-Title-S.dita#student_handout/lab_title"/>           
+<topic id="teacher-guide" outputclass="teacher-guide" xml:lang="en-us">
+    <title conref="Lab-Activity-Title-S.dita#student-handout/lab_title"/>           
     <topic id="procedural-overview">
         <title>Procedural Overview</title>
         <prolog>
@@ -53,23 +53,24 @@
     </topic>
     <topic id="extension">
         <title>Extension</title>
-        <body>
-            <dl outputclass="extension">
-                <dlentry>
-                    <dt><?oxy-placeholder content="Enter Activity Title, Capitalize Major Words..."?></dt>
-                    <dd><?oxy-placeholder content="Enter activity description..."?></dd>
-                </dlentry>
-                <dlentry>
-                    <dt><?oxy-placeholder content="Enter Activity Title, Capitalize Major Words..."?></dt>
-                    <dd><?oxy-placeholder content="Enter activity description..."?></dd>
-                </dlentry>
-                <dlentry>
-                    <dt><?oxy-placeholder content="Enter Activity Title, Capitalize Major Words..."?></dt>
-                    <dd><?oxy-placeholder content="Enter activity description..."?></dd>
-                </dlentry>
-            </dl>
-               
-        </body>
+        <topic id="topic_z2m_5lb_myb">
+            <title><?oxy-placeholder content="Enter Title Capitalize Major Words"?></title>
+            <body>
+                <p><?oxy-placeholder content="Enter activity description"?></p>
+            </body>
+        </topic>
+        <topic id="topic_gyt_vlb_myb">
+            <title><?oxy-placeholder content="Enter Title Capitalize Major Words"?></title>
+            <body>
+                <p><?oxy-placeholder content="Enter activity decsription"?></p>
+            </body>
+        </topic>
+        <topic id="topic_odr_xlb_myb">
+            <title><?oxy-placeholder content="Enter activity description"?></title>
+            <body>
+                <p><?oxy-placeholder content="Enter activity description"?></p>
+            </body>
+        </topic>
     </topic>
     <topic id="id_xjh_2nn_xvb" conref="../reuse/technical-support-contact.dita"
         outputclass="support">

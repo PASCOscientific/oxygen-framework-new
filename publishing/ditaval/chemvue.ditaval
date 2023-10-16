@@ -2,5 +2,14 @@
 <val>
     <prop action="exclude" att="props" val="capstone"/>
     <prop action="exclude" att="props" val="sparkvue"/>
-    <prop action="exclude" att="props" val="chemvue"/>
+    <prop action="exclude" att="props" val="spectrometry"/>
+    <prop action="passthrough" att="props" val="student"/>
+    <prop action="passthrough" att="props" val="teacher"/>
+<!-- Remove code lines 9 & 14 to show red; return code to remove; save after each change --> 
+    <!--
+    <prop action="flag" att="props" val="sparkvue" color="red"/>
+    <prop action="flag" att="props" val="capstone" color="red"/>
+    <prop action="flag" att="props" val="spectrometry" color="red"/>
+    <prop action="flag" att="props" val="chemvue" color="red"/>
+    -->
 </val>
