@@ -179,6 +179,10 @@ a {
     margin-top: 6pt;
 }
 
+.li {
+    page-break-inside: avoid;
+}
+
 .ol, .li {
     font-size: 11pt;
     margin-bottom: 8px;
