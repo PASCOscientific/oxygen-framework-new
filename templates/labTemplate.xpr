@@ -6,6 +6,10 @@
             <serialized xml:space="preserve">
                 <serializableOrderedMap>
                     <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
                             <scenarioAssociation>
@@ -106,7 +110,13 @@
             </serialized>
         </options>
     </meta>
-    <projectTree name="labTemplatev2.xpr">
+    <projectTree name="labTemplate.xpr">
+        <folder masterFiles="true" name="Main Files">
+            <file name="lab-activity-title-cap.ditamap"/>
+            <file name="lab-activity-title-chm.ditamap"/>
+            <file name="lab-activity-title-spc.ditamap"/>
+            <file name="lab-activity-title-spk.ditamap"/>
+        </folder>
         <folder path="."/>
     </projectTree>
 </project>
