@@ -282,6 +282,10 @@ th[class~="topic/entry"], th[class~="topic/stentry"] {
     height: 0.1in;
 }
 
+/* useful to reduce height to minimum when only 1 line */
+.skinny {
+    line-height: 0.6em;
+}
 
 /* Gray out a table cell */
 *[class~="gray-out"],
