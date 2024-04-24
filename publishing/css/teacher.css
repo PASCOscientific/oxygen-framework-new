@@ -23,7 +23,8 @@
     }
     @bottom-right {
         content: counter(page);
-        background-image: url("images/pasco_logo_2017.svg");
+        background-image: url("images/pasco_logo_2017_LARGE.png"); /* Hi-res raster version of PASCO logo */
+	    background-size: 0.69in 0.15in; /* Set image size */
 		background-position: 93% 7%;
         background-repeat: no-repeat;
         vertical-align: top;
@@ -42,7 +43,8 @@
     }
     @bottom-left {
         content: counter(page);
-        background-image: url("images/pasco_logo_2017.svg");
+        background-image: url("images/pasco_logo_2017_LARGE.png"); /* Hi-res raster version of PASCO logo */
+	    background-size: 0.69in 0.15in; /* Set image size */
         background-repeat: no-repeat;
 		background-position: 7% 7%;
 		vertical-align: top;
