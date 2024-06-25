@@ -194,12 +194,75 @@ a {
 }
 
 /* Side-by-side content such as Materials list */
+/* 
+   To use the side-by-side output class in your DITA content, 
+   add the "side-by-side" outputclass attribute to the parent element 
+   containing the elements you want to display side-by-side. 
+   
+   Then, add the appropriate class to each child element 
+   to control their width in the side-by-side layout. 
+   
+   For example, to create a side-by-side layout for paragraphs 
+   or divs with different widths, follow this pattern:
 
-*[outputclass ~= "side-by-side"] > *[class ~= "topic/p"] {
-  display:inline-block;
-  vertical-align:top;
+   <div outputclass="side-by-side">
+     <p outputclass="width-66">Content 1</p>
+     <p outputclass="width-33">Content 2</p>
+   </div>
+
+   Optionally, replace "div" with the appropriate DITA parent element 
+   (such as <section>, <topic>, etc.) and "p" with <p> or <div>, 
+   depending on your content structure.
+
+   In the child elements, the outputclass attribute may be ommitted for equal-width columns,
+   or replaced with values "width-X" where X is 10, 20, 25, 33, 50, 66, 80, or 90 to specify the % width
+*/
+
+
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/p"],
+*[outputclass ~= "side-by-side"] > *[class ~= "topic/div"] {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%; /* Default width */
+}
+
+*[outputclass ~= "side-by-side"] > *[class*="width-"] {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Define widths dynamically based on outputclass attribute */
+*[outputclass ~= "side-by-side"] > *[class*="width-"][outputclass~="width-10"] {
+  width: 9%;
+}
+
+*[outputclass ~= "side-by-side"] > *[class*="width-"][outputclass~="width-20"] {
+  width: 19%;
+}
+
+*[outputclass ~= "side-by-side"] > *[class*="width-"][outputclass~="width-25"] {
+  width: 24%;
+}
+
+*[outputclass ~= "side-by-side"] > *[class*="width-"][outputclass~="width-33"] {
+  width: 32.33%;
+}
+
+*[outputclass ~= "side-by-side"] > *[class*="width-"][outputclass~="width-50"] {
   width: 49%;
-}  
+}
+
+*[outputclass ~= "side-by-side"] > *[class*="width-"][outputclass~="width-66"] {
+  width: 65.66%;
+}
+
+*[outputclass ~= "side-by-side"] > *[class*="width-"][outputclass~="width-80"] {
+  width: 79%;
+}
+
+*[outputclass ~= "side-by-side"] > *[class*="width-"][outputclass~="width-90"] {
+  width: 89%;
+}
 
 /****************************************************************/
 /*                      TABLES                                  */
