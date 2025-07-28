@@ -193,6 +193,11 @@ a {
     margin-bottom: 6px;
 }
 
+/* Use outputclass="no-wrap" to prevent line breaks in an element */
+*[class~="topic/ph"][outputclass~="no-wrap"] {
+    white-space: nowrap;
+}
+
 /* Side-by-side content such as Materials list */
 /* 
    To use the side-by-side output class in your DITA content, 
@@ -218,6 +223,10 @@ a {
    or replaced with values "width-X" where X is 10, 20, 25, 33, 50, 66, 80, or 90 to specify the % width
 */
 
+/* Apply top margin to side-by-side block to match paragraph spacing */
+*[outputclass~="side-by-side"] {
+  margin-top: 12pt;
+}
 
 *[outputclass ~= "side-by-side"] > *[class ~= "topic/p"],
 *[outputclass ~= "side-by-side"] > *[class ~= "topic/div"] {
