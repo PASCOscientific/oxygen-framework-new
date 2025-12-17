@@ -106,8 +106,15 @@ sub[class~="hi-d/sub"] {
     src: url(../software-fonts/chemvue_3_D.ttf);
 }
 
+@font-face {
+    font-family: "PASCO-Interface-Icons";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../software-fonts/PASCO_Interface_Icons.ttf);
+}
+
 body {
-    font-family: "Times New Roman", chemvue;
+    font-family: "Times New Roman", chemvue, "PASCO-Interface-Icons";
 }
 
 
