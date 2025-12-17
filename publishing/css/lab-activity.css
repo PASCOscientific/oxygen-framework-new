@@ -99,12 +99,12 @@ sub[class~="hi-d/sub"] {
 }
 
 /* Software glyph fonts */
-@font-face {
+/*@font-face {
     font-family: "chemvue";
     font-style: normal;
     font-weight: 400;
     src: url(../software-fonts/chemvue_3_D.ttf);
-}
+}*/
 
 @font-face {
     font-family: "PASCO-Interface-Icons";
@@ -114,7 +114,7 @@ sub[class~="hi-d/sub"] {
 }
 
 body {
-    font-family: "Times New Roman", chemvue, "PASCO-Interface-Icons";
+    font-family: "Times New Roman", /*chemvue,*/ "PASCO-Interface-Icons";
 }
 
 
