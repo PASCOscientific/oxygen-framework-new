@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "chemvue";
+    src: url(../software-fonts/chemvue_3_D.ttf);
+    -oxy-font-face: true; 
+}
+
+/* Force the substitution stack on elements that typically hold text */
+*[class ~= "topic/p"], 
+*[class ~= "topic/ph"], 
+*[class ~= "topic/li"],
+*[class ~= "topic/entry"] {
+    font-family: "Times New Roman", "chemvue" !important;
+}
